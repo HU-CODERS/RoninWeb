@@ -167,7 +167,7 @@ export default function RoninLandingPage() {
                   />
                   <input
                     type="number"
-                    placeholder="Nivel en el juego"
+                    placeholder="Nivel en HLL"
                     className="w-full p-3 bg-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-400"
                   />
                   <div className="flex items-center space-x-2">
