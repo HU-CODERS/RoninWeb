@@ -1,6 +1,6 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
-import { ChevronDown, Users, Sword, Shield, Clock, MessageSquare, DollarSign, HelpCircle } from 'lucide-react'
+import { ChevronDown, Users, Sword, Shield, Clock, MessageSquare, DollarSign, HelpCircle, Menu, X } from 'lucide-react'
 
 export default function RoninLandingPage() {
   const [showRequirements, setShowRequirements] = useState(false)
@@ -31,15 +31,35 @@ export default function RoninLandingPage() {
       { date: '2024-01-30', title: 'Torneo Amistoso' },
     ],
   }
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = 'unset'
+    }
+    return () => {
+      document.body.style.overflow = 'unset'
+    }
+  }, [isMenuOpen])
+
+  const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
+
+  const menuItems = ['Inicio', 'Sobre Nosotros', 'Equipo', 'Únete', 'Patrocina']
+
 
   return (
     <div className="min-h-screen bg-gray-900 text-white">
-      <header className="fixed top-0 left-0 right-0 z-50 bg-gray-800 bg-opacity-90 backdrop-blur-sm">
+      <header className="hidden md:block fixed top-0 left-0 right-0 z-50 bg-gray-800 bg-opacity-90 backdrop-blur-sm">
         <nav className="container mx-auto px-6 py-4">
           <ul className="flex justify-center space-x-8">
-            {['Inicio', 'Sobre Nosotros', 'Equipo', 'Únete', 'Patrocina'].map((item) => (
+            {menuItems.map((item) => (
               <li key={item}>
-                <a href={`#${item.toLowerCase().replace(' ', '-')}`} className="text-lg font-medium hover:text-cyan-400 transition-colors">
+                <a
+                  href={`#${item.toLowerCase().replace(' ', '-')}`}
+                  className="text-lg font-medium text-white hover:text-cyan-400 transition-colors"
+                >
                   {item}
                 </a>
               </li>
@@ -47,6 +67,36 @@ export default function RoninLandingPage() {
           </ul>
         </nav>
       </header>
+      
+      <button
+        className="md:hidden fixed top-4 right-4 z-50 p-2 bg-gray-800 rounded-full"
+        onClick={toggleMenu}
+        aria-label={isMenuOpen ? 'Cerrar menú' : 'Abrir menú'}
+      >
+        {isMenuOpen ? (
+          <X className="w-6 h-6 text-white" />
+        ) : (
+          <Menu className="w-6 h-6 text-white" />
+        )}
+      </button>
+
+      {isMenuOpen && (
+        <div className="fixed inset-0 bg-gray-800 z-40 flex items-center justify-center">
+          <ul className="flex flex-col items-center space-y-8">
+            {menuItems.map((item) => (
+              <li key={item}>
+                <a
+                  href={`#${item.toLowerCase().replace(' ', '-')}`}
+                  className="text-2xl font-medium text-white hover:text-cyan-400 transition-colors"
+                  onClick={toggleMenu}
+                >
+                  {item}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       <main>
         <section id="inicio" className="min-h-screen flex items-center justify-center pick-image">
