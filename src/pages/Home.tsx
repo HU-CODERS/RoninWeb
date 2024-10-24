@@ -151,18 +151,18 @@ export default function RoninLandingPage() {
                  
                   <input
                     type="text"
-                    placeholder="Nombre en Steam o en el juego"
+                    placeholder="Nombre en Steam"
                     className="w-full p-3 bg-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-400"
                   />
+                    <input
+                      type="text"
+                      placeholder="Steam64 ID"
+                      maxLength={17}
+                      className="w-full p-3 bg-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-400"
+                    />
                   <input
                     type="number"
                     placeholder="Edad"
-                    className="w-full p-3 bg-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-400"
-                  />
-                  <input
-                    type="text"
-                    placeholder="Steam64 ID"
-                    maxLength={17}
                     className="w-full p-3 bg-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-400"
                   />
                   <input
