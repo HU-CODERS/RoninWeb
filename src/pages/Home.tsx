@@ -7,7 +7,7 @@ export default function RoninLandingPage() {
 
   const teamMembers = {
     captains: [
-      { name: 'Capitan Konig', role: 'Capitán', joinDate: '2022-01-15', avatar: 'https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500' },
+      { name: 'Capitan Konig', role: 'Capitán', joinDate: '2022-01-15', avatar: 'https://cdn.discordapp.com/attachments/1297397964041486347/1299076410232537129/1771457727471_XXL.jpg?ex=671be2af&is=671a912f&hm=0ae1ae647e8873da59c26f679c5785864238c85a9614892521a4f8de8f486c50&' },
       { name: 'Capitan ', role: 'Capitán', joinDate: '2022-03-22', avatar: 'https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500' },
     ],
     soldiers: [
