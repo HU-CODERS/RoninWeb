@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "target": "ES2022",
+      "lib": ["ES2022", "DOM"],         // Asegúrate de incluir "DOM"
+      "module": "ESNext",
+      "skipLibCheck": true,
+  
+      /* Bundler mode */
+      "moduleResolution": "bundler",
+      "isolatedModules": true,
+      "moduleDetection": "force",
+  
+      /* Emit settings */
+      "declaration": true,
+      "declarationMap": true,
+      "outDir": "./dist",
+      "emitDeclarationOnly": false,
+      "sourceMap": true,
+      "jsx": "react-jsx"
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "dist"],
+    "composite": true
+  }
+  

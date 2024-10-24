@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "moduleDetection": "force",
+
+    /* Emit settings */
+    "declaration": true,                // Generate .d.ts files
+    "declarationMap": true,             // Generate .d.ts map files
+    "outDir": "./dist",                 // Output directory
+    "emitDeclarationOnly": false,       // Emit both .js and .d.ts files
+    "sourceMap": true,                  // Optional: Generate source maps
+    "jsx": "react-jsx",                 // JSX setting for React
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"],
+  "composite": true
+}
