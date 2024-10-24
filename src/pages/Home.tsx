@@ -148,14 +148,10 @@ export default function RoninLandingPage() {
               <div className="bg-gray-700 p-6 rounded-lg">
                 <h3 className="text-2xl font-semibold mb-4">Aplica para unirte a Ronin</h3>
                 <form className="space-y-4">
+                 
                   <input
                     type="text"
-                    placeholder="Nombre de usuario"
-                    className="w-full p-3 bg-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-400"
-                  />
-                  <input
-                    type="email"
-                    placeholder="Correo electrónico"
+                    placeholder="Nombre en Steam o en el juego"
                     className="w-full p-3 bg-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-400"
                   />
                   <input
@@ -167,11 +163,6 @@ export default function RoninLandingPage() {
                     type="text"
                     placeholder="Steam64 ID"
                     maxLength={17}
-                    className="w-full p-3 bg-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-400"
-                  />
-                  <input
-                    type="text"
-                    placeholder="Nombre en Steam o en el juego"
                     className="w-full p-3 bg-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-400"
                   />
                   <input
