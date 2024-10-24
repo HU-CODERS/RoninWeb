@@ -172,7 +172,7 @@ export default function RoninLandingPage() {
           </div>
         </section>
 
-        <section id="unete" className="py-20 bg-gray-800">
+        <section id="únete" className="py-20 bg-gray-800">
           <div className="container mx-auto px-6">
             <h2 className="text-4xl font-bold mb-12 text-center">Únete a Nosotros</h2>
             <div className="grid grid-cols-1 gap-12">
