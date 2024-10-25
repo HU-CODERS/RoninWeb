@@ -1,46 +1,11 @@
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { ChevronDown, Users, Sword, Shield, Clock, MessageSquare, DollarSign, HelpCircle, Menu, X } from 'lucide-react'
-import { teamMembers } from '../json/team'
-import * as Collapsible from '@radix-ui/react-collapsible'
-
-interface TeamMember {
-  name: string
-  role: string
-  joinDate: string
-  avatar: string
-}
-
-interface GroupedMembers {
-  [key: string]: TeamMember[]
-}
+import TeamRoster from './RosterTeam'
 
 export default function RoninLandingPage() {
   const [showRequirements, setShowRequirements] = useState(false)
-  const [groupedMembers, setGroupedMembers] = useState<GroupedMembers>({})
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [openCategories, setOpenCategories] = useState(Object.keys(groupedMembers))
-
-  const toggleCategory = (category) => {
-    setOpenCategories(prev =>
-      prev.includes(category)
-        ? prev.filter(cat => cat !== category)
-        : [...prev, category]
-    )
-  }
-
-
-  // Group team members by role
-  useEffect(() => {
-    const grouped = teamMembers.Members.reduce<GroupedMembers>((acc, member) => {
-      if (!acc[member.role]) {
-        acc[member.role] = []
-      }
-      acc[member.role].push(member)
-      return acc
-    }, {})
-    setGroupedMembers(grouped)
-  }, [])
 
   useEffect(() => {
     if (isMenuOpen) {
@@ -148,54 +113,7 @@ export default function RoninLandingPage() {
           </div>
         </section>
 
-        <section id="equipo" className="py-20 bg-gray-900">
-      <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold mb-12 text-center text-white">Jugadores de Ronin</h2>
-        {Object.entries(groupedMembers).map(([role, members]) => (
-          <Collapsible.Root
-            key={role}
-            open={openCategories.includes(role)}
-            onOpenChange={() => toggleCategory(role)}
-          >
-            <div className="mb-8">
-              <Collapsible.Trigger className="w-full">
-                <div className="flex justify-between items-center">
-                  <h3 className="text-2xl font-semibold text-cyan-400 capitalize">{role}</h3>
-                  <ChevronDown
-                    className={`text-cyan-400 transition-transform duration-300 ${
-                      openCategories.includes(role) ? 'transform rotate-180' : ''
-                    }`}
-                  />
-                </div>
-              </Collapsible.Trigger>
-            </div>
-            <Collapsible.Content>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-                {members.map((member, index) => (
-                  <motion.div
-                    key={member.name}
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5, delay: index * 0.1 }}
-                    className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-cyan-500/50 transition-shadow duration-300"
-                    style={{ maxWidth: '350px', maxHeight: '500px' }}
-                  >
-                    <div className="p-6">
-                      <h4 className="text-xl font-semibold mb-2 text-white">{member.name}</h4>
-                      <p className="text-cyan-400 mb-4">{member.role}</p>
-                      <div className="flex items-center text-sm text-gray-400">
-                        <Clock className="w-4 h-4 mr-2" />
-                        <span>Miembro desde {member.joinDate}</span>
-                      </div>
-                    </div>
-                  </motion.div>
-                ))}
-              </div>
-            </Collapsible.Content>
-          </Collapsible.Root>
-        ))}
-      </div>
-    </section>
+        <TeamRoster/>
 
         <section id="únete" className="py-20 bg-gray-800">
           <div className="container mx-auto px-6">
@@ -368,7 +286,7 @@ export default function RoninLandingPage() {
                 </a>
                 <a href="https://www.youtube.com/@ClanRoninHLL" target='_blank' className="text-gray-400 hover:text-cyan-400 transition-colors">
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M21.8 8.001a2.81 2.81 0 00-1.976-1.985C18.19 5.504 12 5.5 12 5.5s-6.19.004-7.825.516a2.81 2.81 0 00-1.975 1.985 29.99 29.99 0 000 7.998c.233.878.924 1.57 1.975 1.984 1.634.511 7.825.515 7.825.515s6.19-.004 7.824-.516a2.81 2.81 0 001.976-1.984 29.99 29.99 0 000-7.998zM10 15.5v-7l6 3.5-6 3.5z" />
+                    <path d="M19.615 3.184c-1.004-.805-3.965-1.178-7.604-1.178-3.64 0-6.6.374-7.604 1.178C3.396 3.99 3 6.186 3 8.825v6.35c0 2.64.396 4.835 1.407 5.641.973.763 3.935 1.184 7.604 1.184 3.64 0 6.6-.375 7.604-1.178 1.01-.805 1.408-3 1.408-5.647v-6.35c-.003-2.639-.398-4.835-1.408-5.641zm-9.59 11.176v-7l6 3.5-6 3.5z" />
                   </svg>
 
                 </a>
