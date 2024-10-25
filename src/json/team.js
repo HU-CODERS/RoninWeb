@@ -4,7 +4,7 @@ export const teamMembers = {
       name: "justjorge",
       role: "Shogunato",
       joinDate: "21/08/2022",
-      avatar: "https://i.pinimg.com/474x/04/27/87/0427875fbdd6dfeef3e725565907913b.jpg"
+      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png"
     },
     {
       name: "Cdte. Negroni",
