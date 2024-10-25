@@ -472,8 +472,8 @@ export const teamMembers = {
     },
     {
       name: "Arie",
-      role: "06/05/2024",
-      joinDate: "Ronin",
+      role: "Ronin",
+      joinDate: "06/05/2024",
       avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
     },
     {

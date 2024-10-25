@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { ChevronDown, Users, Sword, Shield, Clock, MessageSquare, DollarSign, HelpCircle, Menu, X } from 'lucide-react'
 import { teamMembers } from '../json/team'
+import * as Collapsible from '@radix-ui/react-collapsible'
 
 interface TeamMember {
   name: string
@@ -18,6 +19,16 @@ export default function RoninLandingPage() {
   const [showRequirements, setShowRequirements] = useState(false)
   const [groupedMembers, setGroupedMembers] = useState<GroupedMembers>({})
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [openCategories, setOpenCategories] = useState(Object.keys(groupedMembers))
+
+  const toggleCategory = (category) => {
+    setOpenCategories(prev =>
+      prev.includes(category)
+        ? prev.filter(cat => cat !== category)
+        : [...prev, category]
+    )
+  }
+
 
   // Group team members by role
   useEffect(() => {
@@ -138,36 +149,53 @@ export default function RoninLandingPage() {
         </section>
 
         <section id="equipo" className="py-20 bg-gray-900">
-          <div className="container mx-auto px-6">
-            <h2 className="text-4xl font-bold mb-12 text-center text-white">Jugadores de Ronin</h2>
-            {Object.entries(groupedMembers).map(([role, members]) => (
-              <div key={role} className="mb-16">
-                <h3 className="text-2xl font-semibold mb-8 text-cyan-400 capitalize">{role}</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                  {members.map((member, index) => (
-                    <motion.div
-                      key={member.name}
-                      initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.5, delay: index * 0.1 }}
-                      className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-cyan-500/50 transition-shadow duration-300"
-                      style={{ maxWidth: '350px', maxHeight: '500px' }}
-                    >
-                      <div className="p-6">
-                        <h4 className="text-xl font-semibold mb-2 text-white">{member.name}</h4>
-                        <p className="text-cyan-400 mb-4">{member.role}</p>
-                        <div className="flex items-center text-sm text-gray-400">
-                          <Clock className="w-4 h-4 mr-2" />
-                          <span>Miembro desde {member.joinDate}</span>
-                        </div>
-                      </div>
-                    </motion.div>
-                  ))}
+      <div className="container mx-auto px-6">
+        <h2 className="text-4xl font-bold mb-12 text-center text-white">Jugadores de Ronin</h2>
+        {Object.entries(groupedMembers).map(([role, members]) => (
+          <Collapsible.Root
+            key={role}
+            open={openCategories.includes(role)}
+            onOpenChange={() => toggleCategory(role)}
+          >
+            <div className="mb-8">
+              <Collapsible.Trigger className="w-full">
+                <div className="flex justify-between items-center">
+                  <h3 className="text-2xl font-semibold text-cyan-400 capitalize">{role}</h3>
+                  <ChevronDown
+                    className={`text-cyan-400 transition-transform duration-300 ${
+                      openCategories.includes(role) ? 'transform rotate-180' : ''
+                    }`}
+                  />
                 </div>
+              </Collapsible.Trigger>
+            </div>
+            <Collapsible.Content>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                {members.map((member, index) => (
+                  <motion.div
+                    key={member.name}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5, delay: index * 0.1 }}
+                    className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-cyan-500/50 transition-shadow duration-300"
+                    style={{ maxWidth: '350px', maxHeight: '500px' }}
+                  >
+                    <div className="p-6">
+                      <h4 className="text-xl font-semibold mb-2 text-white">{member.name}</h4>
+                      <p className="text-cyan-400 mb-4">{member.role}</p>
+                      <div className="flex items-center text-sm text-gray-400">
+                        <Clock className="w-4 h-4 mr-2" />
+                        <span>Miembro desde {member.joinDate}</span>
+                      </div>
+                    </div>
+                  </motion.div>
+                ))}
               </div>
-            ))}
-          </div>
-        </section>
+            </Collapsible.Content>
+          </Collapsible.Root>
+        ))}
+      </div>
+    </section>
 
         <section id="únete" className="py-20 bg-gray-800">
           <div className="container mx-auto px-6">
