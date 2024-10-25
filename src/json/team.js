@@ -83,117 +83,112 @@ export const teamMembers = {
       role: "Ronin",
       joinDate: "24/08/2022",
       avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
-    },    {
+    }, {
       name: "Meeiko",
       role: "Ronin",
       joinDate: "27/08/2022",
       avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
-    },    {
+    }, {
       name: "Chango",
       role: "Ronin",
       joinDate: "16/09/2022",
       avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
-    },    {
+    }, {
       name: "GordoAnsioso",
       role: "Ronin",
       joinDate: "25/09/2022",
       avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
-    },    {
+    }, {
       name: "Fernixhawx",
       role: "Ronin",
       joinDate: "27/09/2022",
       avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
-    },    {
+    }, {
       name: "Comunero",
       role: "Ronin",
       joinDate: "09/10/2022",
       avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
-    },    {
+    }, {
       name: "Coman C",
       role: "Ronin",
       joinDate: "13/10/2022",
       avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
-    },    {
+    }, {
       name: "Darwin",
       role: "Ronin",
       joinDate: "14/10/2022",
       avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
-    },    {
+    }, {
       name: "SirDaniel",
       role: "Ronin",
       joinDate: "15/11/2022",
       avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
-    },    {
-      name: "Hanna Montana",
-      role: "Ronin",
-      joinDate: "20/11/2022",
-      avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
-    },    {
+    }, {
       name: "Kaplan",
       role: "Ronin",
       joinDate: "23/11/2022",
       avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
-    },    {
+    }, {
       name: "Julio A. Roca",
       role: "Ronin",
       joinDate: "06/12/2022",
       avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
-    },    {
+    }, {
       name: "Buckethead",
       role: "Ronin",
       joinDate: "13/12/2022",
       avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
-    },    {
+    }, {
       name: "Pecci13",
       role: "Ronin",
       joinDate: "16/01/2023",
       avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
-    },    {
+    }, {
       name: "Jeison",
       role: "Ronin",
       joinDate: "24/03/2023",
       avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
-    },    {
+    }, {
       name: "Gonza",
       role: "Ronin",
       joinDate: "25/03/2023",
       avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
-    },    {
+    }, {
       name: "Uli_casla",
       role: "Ronin",
       joinDate: "21/04/2023",
       avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
-    },    {
+    }, {
       name: "Salva",
       role: "Ronin",
       joinDate: "18/04/2023",
       avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
-    },    {
+    }, {
       name: "futuredj",
       role: "Ronin",
       joinDate: "05/05/2023",
       avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
-    },    {
+    }, {
       name: "Robino",
       role: "Ronin",
       joinDate: "02/06/2023",
       avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
-    },    {
+    }, {
       name: "Koky",
       role: "Recluta",
       joinDate: "23/05/2023",
       avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
-    },    {
+    }, {
       name: "Fafa",
       role: "Ronin",
       joinDate: "07/06/2023",
       avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
-    },    {
+    }, {
       name: "dACER",
       role: "Ronin",
       joinDate: "12/06/2023",
       avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d?height=500&width=500"
-    },    
+    },
     {
       name: "SINDRAMA",
       role: "Recluta",
