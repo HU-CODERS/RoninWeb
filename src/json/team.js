@@ -170,7 +170,24 @@ export const teamMembers = {
       name: "Gonza",
       role: "Ronin",
       joinDate: "25/03/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png"
+      avatar: "https://i.ibb.co/Th9gsmt/fine-Gonzalo-Soba.webp",
+      labels: ["Oficial de Escuadra", "Antitanque"],
+      description: "DIEH de la mañana, NACIONAL NACIONAL, Zarpaaaaado",
+      socials: [
+        {
+          name: "instagram",
+          url: "https://www.instagram.com/gonzalo.soba/"
+        },
+        {
+          name: "youtube",
+          url: "https://www.youtube.com/@gonzaBolso99"
+        },
+        {
+          name: "tiktok",
+          url: "https://www.tiktok.com/@gonzahbolso"
+        }
+      ],
+      whyRonin: "Me uni porque Pecci se unió."
     }, {
       name: "Uli_casla",
       role: "Ronin",
@@ -197,8 +214,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: "Cuando se fundó Ronin, el propósito máximo y de mayor trascendencia era el conformar un equipo unido y con vísperas a competir en las asociaciones internacionales de Hell Let Loose. Ahora me aparté un poco más de la administración, pero mi propósito de dar lo máximo para el clan sigue en lo alto. Me dedico a las cuestiones de organización de ligas y torneos, y a matar si no me matan de costado primero, je je.",
-      someElse: ""
+      whyRonin: "Cuando se fundó Ronin, el propósito máximo y de mayor trascendencia era el conformar un equipo unido y con vísperas a competir en las asociaciones internacionales de Hell Let Loose. Ahora me aparté un poco más de la administración, pero mi propósito de dar lo máximo para el clan sigue en lo alto. Me dedico a las cuestiones de organización de ligas y torneos, y a matar si no me matan de costado primero, je je."
     }, {
       name: "futuredj",
       role: "Ronin",
@@ -289,7 +305,24 @@ export const teamMembers = {
       name: "Blood Drakker",
       role: "Ronin",
       joinDate: "27/06/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png"
+      avatar: "https://i.ibb.co/Y7sfL6Z/GIZMO-Lucas-Oscar-Casas.jpg",
+      labels: ["Comandante de Tanque"],
+      description: "Hola soy Lucas, mas conocido por (Blood) en el clan. Antes era capitán de división de infanteria. Actualmente estoy en el rol de capitan de tank, con mi crew ¨CROW¨.",
+      socials: [
+        {
+          name: "instagram",
+          url: ""
+        },
+        {
+          name: "youtube",
+          url: ""
+        },
+        {
+          name: "facebook",
+          url: ""
+        }
+      ],
+      whyRonin: "Desde que empecé a jugar hell veía clanes y tenia las ganas de participar en un clan, tuve la suerte de que me invitaran a RONIN.",
     },
     {
       name: "Yasked",
@@ -319,7 +352,24 @@ export const teamMembers = {
       name: "Chaqueño",
       role: "Ronin",
       joinDate: "17/08/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png"
+      avatar: "https://i.ibb.co/yg2K4Zx/IMG-20240209-WA0033-Aquino-Jos.jpg",
+      labels: ["Oficial de Escuadra", "Medico", "Ingeniero", "Comandante de Tanque", "Tripulante de Tanque"],
+      description: "Comenze jugando en una net que no soportaba el juego que lo maximo que tiraba era 20 fps y gracias a eso llegue a jugar con pasion y aprendi que si tenes una buena pc cualquiera es bueno, en mis inicios arranque como medio y despues aprendi a usar el ingeniero y cuando vi los tanques dije esto es para mi y al principio atoraba el tanque donde sea y troleaba pero hoy dia ser tanquista es mi oficio.",
+      socials: [
+        {
+          name: "instagram",
+          url: ""
+        },
+        {
+          name: "youtube",
+          url: ""
+        },
+        {
+          name: "facebook",
+          url: ""
+        }
+      ],
+      whyRonin: "Un día jugando en el sv de la nada me invitaron para jugar en un clan y me copo la idea para probar el juego en su mejor expresión y desde ahí entre al mundo del competitivo.",
     },
     {
       name: "Max II",
@@ -415,7 +465,24 @@ export const teamMembers = {
       name: "Forest",
       role: "Ronin",
       joinDate: "19/09/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png"
+      avatar: "https://i.ibb.co/VBDGJtH/siegmeyer-of-catarina.jpg",
+      labels: ["Oficial de Escuadra", "Apoyo", "Antitanque", "Ingeniero"],
+      description: "Me gusta jugar de forma organizada y defender los puntos ",
+      socials: [
+        {
+          name: "instagram",
+          url: ""
+        },
+        {
+          name: "youtube",
+          url: ""
+        },
+        {
+          name: "facebook",
+          url: ""
+        }
+      ],
+      whyRonin: "Me gusta jugar competitivo y me gusto la buena onda de los muchachos, un clan muy divertido y donde se puede jugar partidas organizadas y con estrategia."
     },
     {
       name: "Seba Casella",
@@ -619,7 +686,24 @@ export const teamMembers = {
       name: "Chipa",
       role: "Recluta",
       joinDate: "21/07/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png"
+      avatar: "https://i.ibb.co/C76Z99g/GU4to1g-WUAA5-Xx6-Francisco-Urrutia.jpg",
+      labels: ["Apoyo", "Asalto", "Fusilero"],
+      description: "Me llamo Francisco Urrutia, kinesiólogo de profesión, amante de los shooters en general, lolero de corazon.",
+      socials: [
+        {
+          name: "instagram",
+          url: ""
+        },
+        {
+          name: "youtube",
+          url: ""
+        },
+        {
+          name: "facebook",
+          url: ""
+        }
+      ],
+      whyRonin: "La verdad no tenia idea de la existencia de HLL competitivo, hasta que un dia jugando solo en el server de Ronin, topiando kills, me invitaron a jugar un amistoso contra vanguard, y el resto es historia."
     },
     {
       name: "Mike tenshi",
@@ -661,15 +745,32 @@ export const teamMembers = {
       name: "Frn",
       role: "Recluta",
       joinDate: "02/09/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png"
+      avatar: "https://i.ibb.co/bFkgxmL/gollumboca-Franco-de-Iriondo.jpg",
+      labels: ["Francotirador de Recon", "Antitanque", "Fusilero"],
+      description: "ProPlayer y Programador",
+      socials: [
+        {
+          name: "instagram",
+          url: "https://instagram.com/francodeiriondo"
+        },
+        {
+          name: "youtube",
+          url: ""
+        },
+        {
+          name: "facebook",
+          url: ""
+        }
+      ],
+      whyRonin: "Me uní a Ronin porque quería competir en Hell Let Loose junto a un equipo bien organizado, comprometido y competitivo."
     },
     {
       name: "Sgt. Mokka",
       role: "Recluta",
       joinDate: "20/10/2024",
       avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp8tWAJwwxzewqlfuK5DpnBFvOuf-fQB_biA&s",
-      labels: ["Apoyo", "Ingeniero"],
-      description: "Conocido como Mokka en casi todos los juegos, y por mis amigos que me conocen. Tengo MUY POCA paciencia para los pelotudos pero soy buen tipo con la gente noble. No soy fan de los shooters, pero si de la comunidad que armó ronin en HLL, lo que me mueve a jugar a este juego (pese a estar ciego y ser un pete disparando). En las casuales me vas a ver siempre como Comandante, Oficial o Ingeniero.",
+      labels: ["Comandante", "Oficial de Escuadra", "Apoyo", "Ingeniero"],
+      description: "Conocido como Mokka tanto en juegos como en la vida real. Tengo muy poca paciencia para los pelotudos pero soy buen tipo con la gente noble. No soy fan de los shooters, pero si de la comunidad que armó ronin en HLL, lo que me mueve a jugar a este juego (pese a estar ciego y ser un pete disparando).",
       socials: [
         {
           name: "instagram",
@@ -747,11 +848,26 @@ export const teamMembers = {
       joinDate: "25/10/2024",
       avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png"
     }
-    // {
-    //   name: "",
-    //   role: "",
-    //   joinDate: "",
-    //   avatar: ""
-    // },
   ]
 }
+
+
+// Template Complete Profile
+
+// labels: [],
+// description: "",
+// socials: [
+//   {
+//     name: "instagram",
+//     url: ""
+//   },
+//   {
+//     name: "youtube",
+//     url: ""
+//   },
+//   {
+//     name: "facebook",
+//     url: ""
+//   }
+// ],
+// whyRonin: ""
