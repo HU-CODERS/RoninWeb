@@ -313,7 +313,25 @@ export const teamMembers = {
       name: "Happy",
       role: "Ronin",
       joinDate: "12/09/2023",
-      avatar: "https://cdn.discordapp.com/attachments/1295390856177782907/1299504355367452733/sin-novedad-en-el-frente-pelicula-netflix-oscars-2023-640ca1455d0f8.png?ex=671d713d&is=671c1fbd&hm=cbe59e74523af0b9b9416bb98ce47be6c4897b2479caebccef63f19592807ebf&"
+      avatar: "https://cdn.discordapp.com/attachments/1295390856177782907/1299504355367452733/sin-novedad-en-el-frente-pelicula-netflix-oscars-2023-640ca1455d0f8.png?ex=671d713d&is=671c1fbd&hm=cbe59e74523af0b9b9416bb98ce47be6c4897b2479caebccef63f19592807ebf&",
+      description: "Happy :).",
+      labels: ["Oficial de Escuadra","Ametrallador"],
+      socials: [
+        {
+          name: "instagram",
+          url: "https://www.instagram.com/"
+        },
+        {
+          name: "youtube",
+          url: "https://twitter.com/"
+        },
+        {
+          name: "facebook",
+          url: "https://discord.com/"
+        }
+      ],
+      whyRonin: "Me uní por por el competitivo",
+      someElse: "Es un honor de pertenecer a la mejor división. Hell Wings siempre en lo alto."
     },
     {
       name: "dilcort",
@@ -409,7 +427,25 @@ export const teamMembers = {
       name: "Momo",
       role: "Ronin",
       joinDate: "21/02/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png"
+      avatar: "https://i.ibb.co/mX6vqv1/images-Tomas-Gilardoni.jpg",
+      description: "Soy Tom, más conocido como Momo Con Anteojos, alias el 'Tata'. Apodo otorgado por los chicos del clan ya que me gusta dormir siesta y soy medio lento para entender el funcionamiento de Discord. Dentro del clan desarrollo la función de Mod del discord (de ahí también lo de tata), además de comentar boludeces constantemente. Juego como oficial en la división Zapaleri, encargada de jugar en los mapas por las zonas norte-oeste. Nuestra función, como Zapaleri, es encargarse de la defensa y los sectores aledaños a la misma, tratando de mantener una defensa consolidada con gran control de mapa.",
+      labels: ["Oficial de Escuadra","Anti Tanque"],
+      socials: [
+        {
+          name: "instagram",
+          url: "https://www.instagram.com/"
+        },
+        {
+          name: "youtube",
+          url: "https://twitter.com/"
+        },
+        {
+          name: "facebook",
+          url: "https://discord.com/"
+        }
+      ],
+      whyRonin: "Me uní porque me invitaron algunos chicos del clan. Siempre me gustó el ámbito competitivo y también es una linda comunidad con mucha gente diferente, con la que se pueden compartir distintos juegos además del Hell Let Loose.",
+      someElse: ""
     },
     {
       name: "felipezeak",
