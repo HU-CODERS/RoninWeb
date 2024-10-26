@@ -289,7 +289,25 @@ export const teamMembers = {
       name: "Konig",
       role: "Ronin",
       joinDate: "02/09/2023",
-      avatar: "https://cdn.discordapp.com/attachments/1297397964041486347/1299076410232537129/1771457727471_XXL.jpg?ex=671d342f&is=671be2af&hm=ceaa3c3bd6e4a96bbf6e41581d403a3de6c360fef9748a93c48e4acb09c6d90e&"
+      avatar: "https://i.ibb.co/Lx7WYCk/maxresdefault-Konig.jpg",
+      labels: ["Comandante","Oficial de Escuadra", "Francotirador de Recon"],
+      description: "Y mi función en ronin es ser capitán de Bushido manejar la división armar brifing, estrategias, alineaciónes etc.. El rol que estoy ocupando en los competitivos es de oficial de flanqueo. Ademas soy moderador el discord de Ronin y moderador de nuestro servidor Latinoamericano Hagamos Garris.",
+      socials: [
+        {
+          name: "instagram",
+          url: "https://www.instagram.com/fede_scarmatto/"
+        },
+        {
+          name: "youtube",
+          url: ""
+        },
+        {
+          name: "facebook",
+          url: ""
+        }
+      ],
+      whyRonin: "Hace rato que Leonmart me mandaba invitaciónes para unirme a Ronin y a la 3 decidí aceptarla y conocer un poco el ambito competitivo y estrategico del Hell Let loose.",
+      someElse: ""
     },
     {
       name: "TITI",
