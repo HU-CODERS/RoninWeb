@@ -178,12 +178,6 @@ export default function TeamRoster() {
                   <p className="text-gray-300">{selectedMember.whyRonin}</p>
                 </div>
               )}
-              {selectedMember.someElse && (
-                <div>
-                  <h4 className="text-lg font-semibold mb-2">Detalles extras:</h4>
-                  <p className="text-gray-300">{selectedMember.someElse}</p>
-                </div>
-              )}
             </div>
             <Button onClick={closeModal} className="mt-6 bg-cyan-600 hover:bg-cyan-700 text-white">
               Minimizar expediente
