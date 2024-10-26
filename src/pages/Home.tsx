@@ -103,7 +103,7 @@ export default function RoninLandingPage() {
               <div className="bg-gray-700 p-6 rounded-lg">
                 <h3 className="text-2xl font-semibold mb-4 text-cyan-400">Alianza con MERC</h3>
                 <p className="text-lg mb-4">
-                  Estamos orgullosos de nuestra alianza histórica con MERC, un pilar en la comunidad de gaming. Esta colaboración nos ha permitido alcanzar nuevas alturas y fortalecer nuestra presencia en la escena competitiva.
+                  Estamos orgullosos de nuestra alianza histórica con MERC, un pilar en la comunidad de HLL. Esta colaboración nos ha permitido alcanzar nuevas alturas y fortalecer nuestra presencia en la escena competitiva.
                 </p>
               </div>
             </div>
