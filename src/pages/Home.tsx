@@ -94,10 +94,10 @@ export default function RoninLandingPage() {
             <div className="grid md:grid-cols-2 gap-12">
               <div>
                 <p className="text-lg mb-6">
-                  Ronin es un equipo competitivo de élite dedicado a la excelencia en el gaming. Nuestro compromiso con la estrategia, la habilidad y el trabajo en equipo nos ha llevado a la cima de la competencia.
+                  Somos el clan -RONIN-, nacido en agosto de 2022. Surgimos de un grupo de amigos con historia juntos en otro clan, pero con la visión de seguir nuestra pasión por competir, la estrategia y tácticas en "Hell Let Loose".
                 </p>
                 <p className="text-lg">
-                  Con un enfoque en el crecimiento continuo y la innovación, Ronin está siempre buscando nuevos talentos y desafíos para expandir nuestros horizontes en el mundo del gaming competitivo.
+                  Buscamos constantemente nuevos aliados que compartan esa chispa y pasión. Con ellos, queremos compartir lo aprendido y potenciar juntos el rendimiento del clan, además de construir lazos y amistades fuertes.
                 </p>
               </div>
               <div className="bg-gray-700 p-6 rounded-lg">
@@ -113,7 +113,7 @@ export default function RoninLandingPage() {
           </div>
         </section>
 
-        <TeamRoster/>
+        <TeamRoster />
 
         <section id="únete" className="py-20 bg-gray-800">
           <div className="container mx-auto px-6">
