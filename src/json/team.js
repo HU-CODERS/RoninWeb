@@ -46,7 +46,25 @@ export const teamMembers = {
       name: "Cris_Nv",
       role: "Shogunato",
       joinDate: "23/09/2022",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png"
+      avatar: "https://i.ibb.co/MfYbqGH/Screenshot-20240605-022312-Gallery-cristian-navarro.jpg",
+      labels: ["Comandante", "Oficial de Escuadra", "Fusilero", "Apoyo", "Antitanque", "Comandante de Tanque", "Tripulante de Tanque", "Oteador de Recon", "Francotirador de Recon"],
+      description: "Pues soy CrisNv aka Elbalazo. soy oficial y fusilero de vanguardia, naci por mi madre, morire por el hell let loose.",
+      socials: [
+        {
+          name: "instagram",
+          url: ""
+        },
+        {
+          name: "youtube",
+          url: ""
+        },
+        {
+          name: "facebook",
+          url: ""
+        }
+      ],
+      whyRonin: "Fui parte de la creacion del clan, junto a los chicos cuando nos fuimos de D.C",
+      someElse: ""
     },
     {
       name: "Mike-Sama",
@@ -162,7 +180,25 @@ export const teamMembers = {
       name: "Salva",
       role: "Ronin",
       joinDate: "18/04/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png"
+      avatar: "https://i.ibb.co/g4NpQsc/bc98b8a526881240043771f0cb84349e-salva.jpg",
+      labels: ["Comandante", "Asalto", "Apoyo", "Comandante de Tanque"],
+      description: "Soy Salva, organizo cosas y a veces mato gente jaja. Fuera de este jueguito me dedico a las humanidades y a levantar pesas en el gimnasio, no mucho más que eso. ",
+      socials: [
+        {
+          name: "instagram",
+          url: ""
+        },
+        {
+          name: "youtube",
+          url: ""
+        },
+        {
+          name: "facebook",
+          url: ""
+        }
+      ],
+      whyRonin: "Cuando se fundó Ronin, el propósito máximo y de mayor trascendencia era el conformar un equipo unido y con vísperas a competir en las asociaciones internacionales de Hell Let Loose. Ahora me aparté un poco más de la administración, pero mi propósito de dar lo máximo para el clan sigue en lo alto. Me dedico a las cuestiones de organización de ligas y torneos, y a matar si no me matan de costado primero, je je.",
+      someElse: ""
     }, {
       name: "futuredj",
       role: "Ronin",
@@ -308,7 +344,7 @@ export const teamMembers = {
       role: "Ronin",
       joinDate: "02/09/2023",
       avatar: "https://i.ibb.co/Lx7WYCk/maxresdefault-Konig.jpg",
-      labels: ["Comandante","Oficial de Escuadra", "Francotirador de Recon"],
+      labels: ["Comandante", "Oficial de Escuadra", "Francotirador de Recon"],
       description: "Y mi función en ronin es ser capitán de Bushido manejar la división armar brifing, estrategias, alineaciónes etc.. El rol que estoy ocupando en los competitivos es de oficial de flanqueo. Ademas soy moderador el discord de Ronin y moderador de nuestro servidor Latinoamericano Hagamos Garris.",
       socials: [
         {
@@ -350,8 +386,8 @@ export const teamMembers = {
       role: "Ronin",
       joinDate: "12/09/2023",
       avatar: "https://cdn.discordapp.com/attachments/1295390856177782907/1299504355367452733/sin-novedad-en-el-frente-pelicula-netflix-oscars-2023-640ca1455d0f8.png?ex=671d713d&is=671c1fbd&hm=cbe59e74523af0b9b9416bb98ce47be6c4897b2479caebccef63f19592807ebf&",
-      description: "Happy :).",
-      labels: ["Oficial de Escuadra","Ametrallador"],
+      description: "Recorrí el mundo 2 veces, hable con todos una vez Vi a 2 ballenas teniendo sexo y 3 ferias mundiales. Tengo mas sexo mas dulce y mas completo que cualquiera de los que están aquí. Soy un hombre gruja de cuerpo duro, pelo en pecho.Paracaidista ruidoso experto en demoliciones. No hay nada que no pueda hacer, no hay cielos demasiados altos ni mares muy agresivos.Aprendí muchas lecciones en mi vida, no le dispares a un hombre de gran calibre con un arma de calibre pequeño.Todo lo que vale la pena hacer, hay que hacerlo, la moderación es para cobardes. Soy un amante y combatiente, soy un Ronin de la división Hell Wings, así que si se sienten grullas, vuelen, no hay lugar para cobardes. Salud chicos.",
+      labels: ["Oficial de Escuadra", "Ametrallador"],
       socials: [
         {
           name: "instagram",
@@ -367,7 +403,7 @@ export const teamMembers = {
         }
       ],
       whyRonin: "Me uní por por el competitivo",
-      someElse: "Es un honor de pertenecer a la mejor división. Hell Wings siempre en lo alto."
+      someElse: ""
     },
     {
       name: "dilcort",
@@ -465,7 +501,7 @@ export const teamMembers = {
       joinDate: "21/02/2024",
       avatar: "https://i.ibb.co/mX6vqv1/images-Tomas-Gilardoni.jpg",
       description: "Soy Tom, más conocido como Momo Con Anteojos, alias el 'Tata'. Apodo otorgado por los chicos del clan ya que me gusta dormir siesta y soy medio lento para entender el funcionamiento de Discord. Dentro del clan desarrollo la función de Mod del discord (de ahí también lo de tata), además de comentar boludeces constantemente. Juego como oficial en la división Zapaleri, encargada de jugar en los mapas por las zonas norte-oeste. Nuestra función, como Zapaleri, es encargarse de la defensa y los sectores aledaños a la misma, tratando de mantener una defensa consolidada con gran control de mapa.",
-      labels: ["Oficial de Escuadra","Anti Tanque"],
+      labels: ["Oficial de Escuadra", "Anti Tanque"],
       socials: [
         {
           name: "instagram",
@@ -632,7 +668,7 @@ export const teamMembers = {
       role: "Recluta",
       joinDate: "20/10/2024",
       avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp8tWAJwwxzewqlfuK5DpnBFvOuf-fQB_biA&s",
-      labels: ["Apoyo","Ingeniero"],
+      labels: ["Apoyo", "Ingeniero"],
       description: "Conocido como Mokka en casi todos los juegos, y por mis amigos que me conocen. Tengo MUY POCA paciencia para los pelotudos pero soy buen tipo con la gente noble. No soy fan de los shooters, pero si de la comunidad que armó ronin en HLL, lo que me mueve a jugar a este juego (pese a estar ciego y ser un pete disparando). En las casuales me vas a ver siempre como Comandante, Oficial o Ingeniero.",
       socials: [
         {
