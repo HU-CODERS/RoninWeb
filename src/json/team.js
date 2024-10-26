@@ -229,7 +229,25 @@ export const teamMembers = {
       name: "nacho",
       role: "Ronin",
       joinDate: "10/05/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png"
+      avatar: "https://i.ibb.co/2N4FMdp/nacho-Ignacio-Vera.jpg",
+      labels: ["Oficial de Escuadra", "Fusilero", "Apoyo", "Antitanque", "Ingeniero"],
+      description: "Soy nacho A.K.A el GOAT. Demostré que soy el mejor, me cansé y juego como un pete ahora.",
+      socials: [
+        {
+          name: "instagram",
+          url: ""
+        },
+        {
+          name: "youtube",
+          url: ""
+        },
+        {
+          name: "facebook",
+          url: ""
+        }
+      ],
+      whyRonin: "El Salva me dijo que el competitivo es lo god del Jélelú, cuanta razón. Gracias Salva! c:",
+      someElse: ""
     },
     {
       name: "Blood Drakker",
