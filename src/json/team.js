@@ -212,24 +212,24 @@ export const teamMembers = {
       name: "Maxi Neder",
       role: "Shogunato",
       joinDate: "19/03/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/Px9b13J/Chibi-Maxi-Maximiliano-Neder.jpg",
+      labels: ["Comandante","Oficial de Escuadra"],
+      description: "El despliegue en el HELL se exprime al máximo o nada. Las tareas se delegan y se curten nuevos lideres. La mision es dejar el mundo en mejores condiciones de lo encontrado. ⚜️",
       socials: [
         {
           name: "instagram",
-          url: ""
+          url: "https://www.instagram.com/roninsudamerica/"
         },
         {
           name: "youtube",
-          url: ""
+          url: "https://www.youtube.com/@maxineder"
         },
         {
           name: "facebook",
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Vine para probar y aprender a jugar HELL. Con el tiempo, me sumé al mundo competitivo."
     },
     {
       name: "Cnel. David",
@@ -789,13 +789,13 @@ export const teamMembers = {
       name: "SINDRAMA",
       role: "Recluta",
       joinDate: "16/06/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://ibb.co/D4LFL7L",
+      labels: ["Fusilero","Asalto","Apoyo","Ametrallador","Antitanque"],
+      description: "Soy sindrama, eterno recluta que entro en 2023 en comienzos de el clan en el competitivo. Una vez rompi los nodos enemigos en una ranked y casi me voy baneado jaja, Despues de un año volvi con una mejor PC para ahora si hacer desastre, pero en el buen sentido eh.",
       socials: [
         {
           name: "instagram",
-          url: ""
+          url: "https://www.instagram.com/gontbd.23.oficial/"
         },
         {
           name: "youtube",
@@ -806,7 +806,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Siempre me gusto competir, me aburrian las partidas normales asi que siendo tan solo un nivel 10 me uni a Ronin buscando algo serio (no sabia distingir entre un garry y un op jeje), asi que me agarraron en pañales."
     },
     {
       name: "PETUCO",
@@ -1321,9 +1321,9 @@ export const teamMembers = {
       name: "Seba Casella",
       role: "Ronin",
       joinDate: "20/09/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/pKMyW1V/ad5ea635-6094-46f2-868e-eeb42af5136b-seba-casella.webp",
+      labels: ["Oficial de Escuadra","Fusilero","Asalto","Medico","Apoyo","Ametrallador","Antitanque","Ingeniero","Oteador de Recon"],
+      description: "Soy seba, bastante rompe huevos, no pego una bala, soy de zapaleri full defensa OP F8 keypad 5. Una vez le tire humo a un 76 porque salí sin satchel. Flexeo a tirar cajas. En la vida real estoy casado, tengo un hijo de 4 meses y laburo  limpiando silos y plantas cerealeras. Fanático del zorro. desde pibe iba disfrazado para todos lados. Me cagaba a palos con todo el mundo.",
       socials: [
         {
           name: "instagram",
@@ -1338,7 +1338,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Porque me gustan los juegos de guerra y competir."
     },
     {
       name: "7ROYAN",
@@ -1920,9 +1920,9 @@ export const teamMembers = {
       name: "Jeresin",
       role: "Ronin",
       joinDate: "27/05/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/Gsn66fb/IMG-20240505-185810455-Jeremias-Bernardello.png",
+      labels: ["Oficial de Escuadra", "Fusilero", "Asalto", "Apoyo","Ametrallador","Antitanque","Ingeniero","Tripulante de Tanque"],
+      description: "Vivo en Ushuaia, Tierra del fuego. Si, en la concha de la lora jajaja. Tengo 27 años y roleo entre oficial e infantería en Bushido.",
       socials: [
         {
           name: "instagram",
@@ -1937,7 +1937,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Porque quería ampliar mi conocimiento del juego y llevar mi nivel a lo competitivo."
     },
     {
       name: "Blackbeard",
