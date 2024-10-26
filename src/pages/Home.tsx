@@ -105,9 +105,6 @@ export default function RoninLandingPage() {
                 <p className="text-lg mb-4">
                   Estamos orgullosos de nuestra alianza histórica con MERC, un pilar en la comunidad de gaming. Esta colaboración nos ha permitido alcanzar nuevas alturas y fortalecer nuestra presencia en la escena competitiva.
                 </p>
-                <p className="text-lg">
-                  Juntos, Ronin y MERC están redefiniendo lo que significa ser un equipo de élite en el mundo del gaming competitivo.
-                </p>
               </div>
             </div>
           </div>
