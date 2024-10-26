@@ -595,7 +595,25 @@ export const teamMembers = {
       name: "Sgt. Mokka",
       role: "Recluta",
       joinDate: "20/10/2024",
-      avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp8tWAJwwxzewqlfuK5DpnBFvOuf-fQB_biA&s"
+      avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp8tWAJwwxzewqlfuK5DpnBFvOuf-fQB_biA&s",
+      labels: ["Apoyo","Ingeniero"],
+      description: "Conocido como Mokka en casi todos los juegos, y por mis amigos que me conocen. Tengo MUY POCA paciencia para los pelotudos pero soy buen tipo con la gente noble. No soy fan de los shooters, pero si de la comunidad que armó ronin en HLL, lo que me mueve a jugar a este juego (pese a estar ciego y ser un pete disparando). En las casuales me vas a ver siempre como Comandante, Oficial o Ingeniero.",
+      socials: [
+        {
+          name: "instagram",
+          url: "https://www.instagram.com/bruno.buona/"
+        },
+        {
+          name: "youtube",
+          url: ""
+        },
+        {
+          name: "facebook",
+          url: ""
+        }
+      ],
+      whyRonin: "Me uní porque Konig, un tipo que personalmente me cae muy bien, me invitó. Despues conocí gente dentro su servidor, que al tambien ser parte de Ronin, terminarón de mover la balanza para unirme. Si tuviste alguna mala experiencia con algún ronin en particular, despreocupate porque son casos aislados. Conocé al resto, que el 99% son tremendas personas.",
+      someElse: "He He, si tenes opiniones / ideas / sugerencias para la web, hablame en el discord de Ronin. Todas las ideas son bienvenidas."
     },
     {
       name: "SNATI",
