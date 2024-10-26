@@ -319,15 +319,15 @@ export const teamMembers = {
       socials: [
         {
           name: "instagram",
-          url: "https://www.instagram.com/"
+          url: ""
         },
         {
           name: "youtube",
-          url: "https://twitter.com/"
+          url: ""
         },
         {
           name: "facebook",
-          url: "https://discord.com/"
+          url: ""
         }
       ],
       whyRonin: "Me uní por por el competitivo",
@@ -433,15 +433,15 @@ export const teamMembers = {
       socials: [
         {
           name: "instagram",
-          url: "https://www.instagram.com/"
+          url: ""
         },
         {
           name: "youtube",
-          url: "https://twitter.com/"
+          url: ""
         },
         {
           name: "facebook",
-          url: "https://discord.com/"
+          url: ""
         }
       ],
       whyRonin: "Me uní porque me invitaron algunos chicos del clan. Siempre me gustó el ámbito competitivo y también es una linda comunidad con mucha gente diferente, con la que se pueden compartir distintos juegos además del Hell Let Loose.",
