@@ -53,7 +53,7 @@ export default function TeamRoster() {
   const toggleOpen = () => setIsOpen(!isOpen)
 
   const openModal = (member: Member) => {
-    if (member.description || member.labels || member.socials || member.whyRonin || member.someElse) {
+    if (member.description !== "") {
       setSelectedMember(member)
     }
   }
