@@ -506,7 +506,24 @@ export const teamMembers = {
       name: "Valdez",
       role: "Ronin",
       joinDate: "07/10/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png"
+      avatar: "https://i.ibb.co/kqqPnxf/ss-91164a6a3d2fce7df1e8f7b0479484f3f2a761a2-1920x1080.jpg",
+      labels: ["Oficial de Escuadra", "Fusilero", "Asalto", "Apoyo", "Ametrallador", "Antitanque", "Ingeniero"],
+      description: "Soy de esos que se mete de cabeza en el rol.",
+      socials: [
+        {
+          name: "instagram",
+          url: ""
+        },
+        {
+          name: "youtube",
+          url: ""
+        },
+        {
+          name: "facebook",
+          url: ""
+        }
+      ],
+      whyRonin: "Para aprender a jugar este vicio que es el Hell."
     },
     {
       name: "Rambo",
