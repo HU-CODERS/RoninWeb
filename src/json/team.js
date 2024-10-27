@@ -119,9 +119,9 @@ export const teamMembers = {
       name: "Infamous",
       role: "Shogunato",
       joinDate: "24/08/2022",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/jwSbbFT/band-of-brothers-Alonso-Lanfranco.jpg",
+      labels: ["Oficial de Escuadra", "Asalto"],
+      description: "En la juego soy el padre de muchos ronin, los vi desde que eran unos nenes que ni sabian hacer un garry, y el mejor peruano que pueda existir en el clan, juego casual y competitivo, que solo juego de oficial, y culpable de que keltah sea mi eterno hijo ",
       socials: [
         {
           name: "instagram",
@@ -136,7 +136,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Soy parte de los creadores de ronin, se creo el clan con el fin de poder jugar hell libremente sin un lider supremo donde siempre tenga la razon, hoy en dia el clan no se enfoca solo a hell si no a diferentes juegos. "
     },
     {
       name: "Alvatronik",
@@ -835,9 +835,9 @@ export const teamMembers = {
       name: "Petrus",
       role: "Ronin",
       joinDate: "21/06/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/VDCkj9r/panther-Pedro-Miraballes.png",
+      labels: ["Tripulante de Tanque"],
+      description: "Loco al volante",
       socials: [
         {
           name: "instagram",
@@ -852,7 +852,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Una noche desperté en mi cama bañado en sudor luego de haber pasado todo el día en el hell let loose, y note que algo no andaba bien, veía las imágenes en mi cabeza del mapa vacío sin garrys y oía los gritos de mis compañeros de equipo 'Son todos unos mancos', 'Si quieren solo atacar vayan al battlefield', 'Que hace ese tanque pesado rodeando mientras perdemos el punto'. Me costo mucho darme cuenta de que significaba todo esto, hasta que di con un alma a fin que me pregunto por qué no me unía a Ronin que hacía partidas organizadas y competitivas, y aquí estoy luego de mucho tiempo, y siguen sin armar garrys."
     },
     {
       name: "Guiso de waska",
@@ -1988,10 +1988,10 @@ export const teamMembers = {
     {
       name: "Meow",
       role: "Ronin",
-      joinDate: "??/??/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      joinDate: "29/04/2023",
+      avatar: "https://i.ibb.co/JCs0qgL/acho-Segio.png",
+      labels: ["Medico"],
+      description: "meow!",
       socials: [
         {
           name: "instagram",
@@ -1999,14 +1999,14 @@ export const teamMembers = {
         },
         {
           name: "youtube",
-          url: ""
+          url: "https://www.youtube.com/@Serp0_"
         },
         {
           name: "facebook",
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "meow!"
     },
     {
       name: "Chipa",
