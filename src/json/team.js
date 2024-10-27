@@ -73,24 +73,24 @@ export const teamMembers = {
       name: "LeonmarT",
       role: "Shogunato",
       joinDate: "23/08/2022",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/28hYgX8/Perfil-per-chicken-DINNER.jpg",
+      labels: ["Comandante", "Oficial de Escuadra", "Apoyo", "Ametrallador", "Antitanque", "Ingeniero", "Tripulante de Tanque", "Oteador de Recon"],
+      description: "Soy -🅁- LeonMarT✠ ☠, uno de los miembros fundadores de Ronin, un clan competitivo en Hell Let Loose. Con 7120 horas de experiencia y 149 logros de 177 posibles, me enorgullece aportar a esta comunidad. Como argentino y patagónico, tengo un objetivo claro: trabajar para que Ronin se convierta en el clan más grande y competitivo de Hell Let Loose en Latinoamérica.",
       socials: [
         {
           name: "instagram",
-          url: ""
+          url: "https://www.instagram.com/stories/roninsudamerica/3122243140109751476/"
         },
         {
           name: "youtube",
-          url: ""
+          url: "www.youtube.com/@ClanRoninHLL"
         },
         {
           name: "facebook",
-          url: ""
+          url: "https://facebook.com/profile.php?id=100088576507160"
         }
       ],
-      whyRonin: ""
+      whyRonin: "Ronin nació de la resiliencia. Después de una dura derrota en el HCA en 2022, dejamos de jugar en clanes, pero el amor por el juego nunca se apagó. Nos reunimos, sin nombre ni servidor, y empezamos a construir un espacio sólido y con visión competitiva. Nos enfocamos en una estructura que protege tanto a jugadores antiguos como nuevos y a fomentar una comunidad de aprendizaje, disciplina y diplomacia."
     },
     {
       name: "Werxtrax",
@@ -142,9 +142,9 @@ export const teamMembers = {
       name: "Alvatronik",
       role: "Shogunato",
       joinDate: "24/08/2022",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/qnT99pD/IMG-20230114-195854-Alvaro-Mariscal.jpg",
+      labels: ["Comandante", "Oficial de Escuadra", "Fusilero", "Asalto", "Medico", "Apoyo", "Ametrallador", "Antitanque", "Ingeniero", "Comandante de Tanque", "Tripulante de Tanque"],
+      description: "Soy el mejor gunner que encontrarás en Latam, el único que puede dispararle a un un objetivo en movimiento a mas de 1200mts con el tanque andando, siendo parte de una temeraria tripulación conocida como el tanque del amor, la unica tripulación que cuando todo lo demas fallaba nosotros resistiamos, fuimos el terror de los tanques en Latam y en algún momento volveremos a sembrar nuestro dominio del terror. Conocido por mi tonicidad pero también por mi gran capacidad de carrear a los muertos, desempeñandome también como asalto para dinamitar tanques siendo parte de las fuerzas especiales tagamandapinas. El unico que se desempeña de manera sobresaliente en todos los roles, desde oficial hasta fusilero, de comandante hasta oficial de tanque. Padre fundador de lo que hoy en día es el clan Ronin, hasta antes de retirarme del juego por cambiarme de país conocía a cada pelagato de este clan.",
       socials: [
         {
           name: "instagram",
@@ -155,11 +155,11 @@ export const teamMembers = {
           url: ""
         },
         {
-          name: "facebook",
-          url: ""
+          name: "tiktok",
+          url: "https://www.tiktok.com/@mr.marshall22?_t=8qtghLkYbQs&_r=1"
         }
       ],
-      whyRonin: ""
+      whyRonin: "Porque sin mi esto no hubiera existido, soy la columna vertebral de la escuadra de blindados."
     },
     {
       name: "Cris_Nv",
@@ -590,9 +590,9 @@ export const teamMembers = {
       name: "Jeison",
       role: "Ronin",
       joinDate: "24/03/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/HhCbLHX/20221222-144621-Jeison-Daza.jpg",
+      labels: ["Oficial de Escuadra", "Ametrallador"],
+      description: "Sólo vengo a pegar tiros.",
       socials: [
         {
           name: "instagram",
@@ -607,7 +607,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Estaba en la DC y después del problema me desentendí de clanes, luego encontré en públicas a Leonmart y Tanz y me vine a Ronin."
     }, {
       name: "Gonza",
       role: "Ronin",
@@ -700,9 +700,9 @@ export const teamMembers = {
       name: "Robino",
       role: "Ronin",
       joinDate: "02/06/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/fp6vd4k/DALL-E-2024-10-27-11-02-15-Realistic-profile-picture-of-a-penguin-dressed-as-a-World-War-II-soldier.webp",
+      labels: ["Oficial de Escuadra", "Fusilero", "Comandante de Tanque"],
+      description: "Soy el Robinho y amaso gringos desde la antartida con los pingüinos ",
       socials: [
         {
           name: "instagram",
@@ -717,7 +717,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Para poder participar en eventos y aprender más sobre las mecánicas ocultas del game 🔥"
     }, {
       name: "Koky",
       role: "Recluta",
@@ -881,9 +881,9 @@ export const teamMembers = {
       name: "IGNA",
       role: "Ronin",
       joinDate: "25/06/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/N35NJYR/1481031611-tam-2ip-1-Emiliano-Coronel.jpg",
+      labels: ["Asalto", "Antitanque", "Comandante de Tanque", "Tripulante de Tanque"],
+      description: "¿Quien es el Igna? Yo te explico, ese nunca se baja de un tanque, clavado en Ronin desde que el pollito pio nacio, viendo acosos sexuales hacia los reclutas y menores de edad, siendo parte de la epoca dorada en donde el chaco recien incluido a ronin se regalaba por cada palabra dicha y sobre todo viendo como el Blood se quema hasta el dia de hoy por la CROW haciendo Briefings, ese, ese es el Igna que se ve en el tanque del Blood Y el Chaco.",
       socials: [
         {
           name: "instagram",
@@ -898,7 +898,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Entrar a ronin fue por muchas razones pero las de mas peso en ese momento fueron las disponibilidades que daba el clan, como: Abuso de poder,  Degeneracion neurofuncional, presenciar regaladas de todos los integrantes de ronin, Ver como ciertos individuos procedentes del chaco piden travestis y menores de edad. Pero sobre todo, la seguridad de que puedo ver como las personas se corrompen por menores de edad y el caracol (Eh?) pero fuera de los chistes despues de este tiempo puedo decir que Ronin es mi casa, nuestra casa. Viva la CROW locooooooooooo la mejor de todo ronin ✠卐"
     },
     {
       name: "El pollito pío",
@@ -1828,9 +1828,9 @@ export const teamMembers = {
       name: "Conejo",
       role: "Ronin",
       joinDate: "??/??/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/ChvTsKz/bugs-bunny-soldado-1-Leandro-Sarmiento.jpg",
+      labels: ["Oficial de Escuadra", "Asalto", "Apoyo", "Antitanque", "Ingeniero", "Oteador de Recon"],
+      description: "Hola mi nombre real es Leonardo Sarmiento conocido como conejo, eh sido un clavo para el enemigo gracias a mis sentidos siendo así los ojos y oídos de Ronin., mi tarea en competitivo consiste en ser el spotter y tirar bengalas en lugares y momentos específicos del mapa, con ayuda de mi astucia y las estrategias hechas por mis compañeros llamadas “briefings”, para poder lograr al fin detectar a el enemigo y que mis compañeros puedan limpiar zonas con la ayuda de la artillería y así avanzar cumpliendo el objetivo de mantener o capturar un punto. También suelo ser rol oficial para no cansarme de la dura tarea de tirar bengalas.",
       socials: [
         {
           name: "instagram",
@@ -1845,7 +1845,30 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Me uni a ronin porque queria conocer y formar parte de toda la estratregia que se lleva dentro y fuera de HLL, jugar otros juegos, compartir un monton de cosas y hacer amigos."
+    },
+    {
+      name: "jK",
+      role: "Ronin",
+      joinDate: "??/??/2024",
+      avatar: "https://i.ibb.co/pL9KKf2/Ga-C0-Fkd-WQAA8771-Joaco-Dominguez.jpg",
+      labels: ["Ametrallador", "Ingeniero"],
+      description: "Salva me invito al clan, despues se desapareció y nunca me mando el discord, tanto porro y cohelo hizo que se olvide. anacheee aguante racing.",
+      socials: [
+        {
+          name: "instagram",
+          url: ""
+        },
+        {
+          name: "youtube",
+          url: ""
+        },
+        {
+          name: "facebook",
+          url: ""
+        }
+      ],
+      whyRonin: "Para sentar petes."
     },
     {
       name: "Arie",
@@ -2059,8 +2082,8 @@ export const teamMembers = {
       role: "Recluta",
       joinDate: "08/08/2024",
       avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      labels: ["Fusilero", "Asalto", "Apoyo", "Ametrallador", "Antitanque"],
+      description: "Caí en la adicción al HLL.",
       socials: [
         {
           name: "instagram",
@@ -2075,7 +2098,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Fui invitado por el grandísimo Cris (ElBalazo)"
     },
     {
       name: "Bluox",
