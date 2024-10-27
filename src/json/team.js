@@ -2081,7 +2081,7 @@ export const teamMembers = {
       name: "Ruloo",
       role: "Recluta",
       joinDate: "08/08/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
+      avatar: "https://i.ibb.co/ncbn9dg/Folder-Alan-Conte.jpg",
       labels: ["Fusilero", "Asalto", "Apoyo", "Ametrallador", "Antitanque"],
       description: "Caí en la adicción al HLL.",
       socials: [
