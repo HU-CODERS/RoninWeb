@@ -1713,7 +1713,7 @@ export const teamMembers = {
       name: "Ryokodps",
       role: "Ronin",
       joinDate: "25/06/2024",
-      avatar: "https://i.ibb.co/L1yc0kQ/Captura-de-pantalla-2023-07-02-220902-Pablo-Pecci.png",
+      avatar: "https://i.ibb.co/QHTTgmr/guts-icon-by-coolstar7-dakle7r-fullview.jpg",
       labels: ["Oficial de Escuadra","Fusilero","Asalto","Antitanque"],
       description: "Mi nombre es Matias, soy de Chile, casi Ingeniero Civil Industrial, conocido dentro del juego como ryo, ryoko, amante de perros y gatos, y desde chico que soy jugador en el mundo de los shooters en general. Espero seguir vivo para conocer el final de Berserk.",
       socials: [

@@ -23,7 +23,7 @@ const getLabelColor = (label: string) => {
   const colors = {
     "Comandante": "bg-gradient-to-r from-red-600 to-red-800 text-white",
     "Oficial de Escuadra": "bg-gradient-to-r from-orange-500 to-orange-700 text-white",
-    "Asalto": "bg-gradient-to-r from-pink-500 to-pink-700 text-white",
+    "Asalto": "bg-gradient-to-r from-brown-500 to-brown-700 text-white",
     "Fusilero": "bg-gradient-to-r from-blue-500 to-blue-700 text-white",
     "Medico": "bg-gradient-to-r from-green-500 to-green-700 text-white",
     "Apoyo": "bg-gradient-to-r from-purple-500 to-purple-700 text-white",
