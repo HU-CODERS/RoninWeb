@@ -789,7 +789,7 @@ export const teamMembers = {
       name: "SINDRAMA",
       role: "Recluta",
       joinDate: "16/06/2023",
-      avatar: "https://ibb.co/D4LFL7L",
+      avatar: "https://i.ibb.co/qBx8xRx/459950829-18489725686028022-4852743715388645005-n-nicolass-lionel.jpg",
       labels: ["Fusilero","Asalto","Apoyo","Ametrallador","Antitanque"],
       description: "Soy sindrama, eterno recluta que entro en 2023 en comienzos de el clan en el competitivo. Una vez rompi los nodos enemigos en una ranked y casi me voy baneado jaja, Despues de un año volvi con una mejor PC para ahora si hacer desastre, pero en el buen sentido eh.",
       socials: [
