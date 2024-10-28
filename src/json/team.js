@@ -568,9 +568,9 @@ export const teamMembers = {
       name: "Pecci13",
       role: "Ronin",
       joinDate: "16/01/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/L1yc0kQ/Captura-de-pantalla-2023-07-02-220902-Pablo-Pecci.png",
+      labels: ["Fusilero","Asalto","Ametrallador","Antitanque","Ingeniero","Tripulante de Tanque","Francotirador de Recon"],
+      description: "Hola soy -🆁- PECCI13 y llevo unas 4100hs en HLL. Mis logros y estadísticas hablan por mí.",
       socials: [
         {
           name: "instagram",
@@ -578,14 +578,14 @@ export const teamMembers = {
         },
         {
           name: "youtube",
-          url: ""
+          url: "https://www.youtube.com/@PECCI13"
         },
         {
           name: "facebook",
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Me invitó un personaje llamado Hanna Montana."
     }, {
       name: "Jeison",
       role: "Ronin",
@@ -1713,9 +1713,9 @@ export const teamMembers = {
       name: "Ryokodps",
       role: "Ronin",
       joinDate: "25/06/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/L1yc0kQ/Captura-de-pantalla-2023-07-02-220902-Pablo-Pecci.png",
+      labels: ["Oficial de Escuadra","Fusilero","Asalto","Antitanque"],
+      description: "Mi nombre es Matias, soy de Chile, casi Ingeniero Civil Industrial, conocido dentro del juego como ryo, ryoko, amante de perros y gatos, y desde chico que soy jugador en el mundo de los shooters en general. Espero seguir vivo para conocer el final de Berserk.",
       socials: [
         {
           name: "instagram",
@@ -1730,7 +1730,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Me aburrí de perder las partidas públicas, gente con poco skill, logística, reacción y puntería, tenía ganas de más, algo más frenético y organizado, todo lo contrario a lo anteriormente mencionado, me invitaron varias veces unirme al clan, pero no estaba interesado en ese momento, ya que jugaba casualmente. Supe un día que hacían amistosos contra clanes, por lo que pregunté y me invitaron sin vacilar a un scrim, me sentaron tantas veces, me sentí humillado y pisoteado, por lo que me propuse mejorar y devolverles lo que me arrebataron ese día."
     },
     {
       name: "Licha",
