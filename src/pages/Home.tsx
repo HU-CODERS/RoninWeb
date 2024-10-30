@@ -81,7 +81,7 @@ export default function RoninLandingPage() {
       <main>
         <section id="inicio" className="min-h-screen flex items-center justify-center pick-image">
           <div className="text-center">
-            <img src="https://cdn.discordapp.com/attachments/1297397964041486347/1299063032999313500/Sin_titulo-3.png?ex=671bd63a&is=671a84ba&hm=dcfcf682a5c90a0d5d7bf95bce1763c811b69db1714e8dbbc5c6348fa62f8427&" className='opacity-70' alt="" />
+            <img src="https://i.ibb.co/zGSNS2R/Logo-Ronin.png" className='opacity-70' alt="" />
 
           </div>
         </section>
@@ -101,7 +101,7 @@ export default function RoninLandingPage() {
           <div className="flex flex-col items-center justify-between md:flex-row">
             <div className="mb-4 md:mb-0">
               <img
-                src="https://cdn.discordapp.com/attachments/1297397964041486347/1299063032999313500/Sin_titulo-3.png?ex=671bd63a&is=671a84ba&hm=dcfcf682a5c90a0d5d7bf95bce1763c811b69db1714e8dbbc5c6348fa62f8427&"
+                src="https://i.ibb.co/zGSNS2R/Logo-Ronin.png"
                 alt="Ronin Logo"
                 width={200}
                 height={67}
