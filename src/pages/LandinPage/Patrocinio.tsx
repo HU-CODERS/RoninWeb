@@ -104,29 +104,31 @@ export default function PatrocinioComponent() {
               <AccordionItem value="item-2">
                 <AccordionTrigger className="text-lg text-cyan-400">¿Por qué es útil seedear?</AccordionTrigger>
                 <AccordionContent className="text-white">
-                  Seedear ayuda a mantener los servidores activos, crea oportunidades para nuevos jugadores y fortalece la comunidad de HLL.
+                  Seedear ayuda a mantener los servidores activos, crea oportunidades para nuevos jugadores y fortalece la comunidad de HLL. De esta manera, incentivarás a otros jugadores a entrar al servidor.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3">
                 <AccordionTrigger className="text-lg text-cyan-400">¿Qué gano al seedear?</AccordionTrigger>
                 <AccordionContent className="text-white">
-                  Al seedear, ganas experiencia, ayudas a la comunidad y podrías recibir recompensas especiales de los administradores del servidor.
+                  Recibirás VIP durante las siguientes 24 horas cuando se hayan alcanzado los 40 jugadores, lo cual te servirá por si quieres entrar más tarde al servidor.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-4">
                 <AccordionTrigger className="text-lg text-cyan-400">¿Cuáles son los horarios usuales de Seeding?</AccordionTrigger>
                 <AccordionContent className="text-white">
-                  Los horarios de seeding suelen ser en las mañanas y tardes, pero varía según la zona horaria. Consulta nuestro Discord para más detalles.
+                  El horario varia dependiendo el dia. Lo usual es que comience a las 16/18hs UTC-3 de Lunes a Viernes. Sabados y Domingos puede comenzar antes.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
 
             <div className="mt-8 text-center">
+              <a href="https://discord.gg/SXtCnpfvDW" target="_blank" rel="noopener noreferrer">
               <Button className="bg-[#7289da] hover:bg-[#5b6eae] text-white text-lg px-6 py-3 flex items-center justify-center w-full sm:w-auto">
                 <MessageSquare className="mr-2 h-5 w-5" />
-                <span className="hidden sm:inline">Unirse al Discord de Hagamos Garrys</span>
+                <span className="hidden sm:inline">Unirse al Discord de HLL LatinoAmerica</span>
                 <span className="sm:hidden">Unirse al Discord</span>
               </Button>
+              </a>
             </div>
           </div>
         )}
