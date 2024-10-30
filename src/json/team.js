@@ -2052,7 +2052,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: "La verdad no tenia idea de la existencia de HLL competitivo, hasta que un dia jugando solo en el server de Ronin, topiando kills, me invitaron a jugar un amistoso contra vanguard, y el resto es historia."
+      whyRonin: "No tenía idea del competitivo en Hell Let Loose. Me pasé 100 horas jugando y roleando de médico en servidores poco serios, pero un día me desperté con ganas de jugar en serio y entré a un servidor random de fusilero, matando a unos que se tagueaban con R. No tenía idea de quiénes eran, no me podían matar. Llegué a la hora de la partida y me quedé AFK, ya que estaba aburrido de matar tanto. Terminé la partida con 120 kills y me habló un tal Salva que me quería invitar a jugar una competitiva. Me decía que faltaba un carry en el equipo porque tenían problemas con las muertes. Después de una intensa negociación de libras esterlinas, asistí a este amistoso con un clan brasileño. Me pedían que tirara una caja de no sé qué mierda que construyera unos nodos para no sé qué, pero después de unos minutos me dejaron pegar, que era para lo que me invitaron. No sé qué hice, la verdad, estaba escuchando a Pablo Chile y terminé la partida con 100 kills matando a pro players del Hell, y ahi se dieron cuenta de que tenían a Messi en el equipo y no me sacaron más, espero seguir carreando pero ya deje de jugar tanto a si que les estoy dando posibilidad de que me quiten los primeros lugares gracias."
     },
     {
       name: "Mike tenshi",

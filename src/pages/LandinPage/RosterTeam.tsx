@@ -1,11 +1,11 @@
 import { useState, useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Clock, ChevronDown, Info, Instagram, Youtube, Facebook } from 'lucide-react'
-import { Card, CardContent } from "../components/ui/card"
-import { Button } from "../components/ui/button"
-import { Avatar, AvatarImage, AvatarFallback } from "../components/ui/avatar"
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "../components/ui/dialog"
-import { teamMembers } from '../json/team'
+import { Card, CardContent } from "../../components/ui/card"
+import { Button } from "../../components/ui/button"
+import { Avatar, AvatarImage, AvatarFallback } from "../../components/ui/avatar"
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "../../components/ui/dialog"
+import { teamMembers } from '../../json/team'
 
 interface Member {
   name: string;
@@ -23,7 +23,7 @@ const getLabelColor = (label: string) => {
   const colors = {
     "Comandante": "bg-gradient-to-r from-red-600 to-red-800 text-white",
     "Oficial de Escuadra": "bg-gradient-to-r from-orange-500 to-orange-700 text-white",
-    "Asalto": "bg-gradient-to-r from-brown-500 to-brown-700 text-white",
+    "Asalto": "bg-gradient-to-r from-cyan-500 to-red-700 text-white",
     "Fusilero": "bg-gradient-to-r from-blue-500 to-blue-700 text-white",
     "Medico": "bg-gradient-to-r from-green-500 to-green-700 text-white",
     "Apoyo": "bg-gradient-to-r from-purple-500 to-purple-700 text-white",
@@ -61,7 +61,7 @@ export default function TeamRoster() {
   const closeModal = () => setSelectedMember(null)
 
   return (
-    <section id="equipo" className="py-20 bg-gray-900">
+    <section id="roster-ronin" className="py-20 bg-gray-900">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold mb-12 text-center text-white">Jugadores de Ronin</h2>
         <div className="mb-8">
