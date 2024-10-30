@@ -92,7 +92,7 @@ export default function RoninHistory() {
                 </h2>
                 <div
                     ref={scrollContainerRef}
-                    className="w-full max-w-[70%] h-[500px] mx-auto bg-gray-800 p-6 sm:p-8 rounded-lg shadow-2xl border border-gray-700 overflow-y-auto"
+                    className="w-full max-w-[50%] h-[500px] mx-auto bg-gray-800 p-6 sm:p-8 rounded-lg shadow-2xl border border-gray-700 overflow-y-auto"
                 >
                     <AnimatePresence mode="wait">
                         <motion.div
@@ -124,7 +124,7 @@ export default function RoninHistory() {
                     </AnimatePresence>
                 </div>
                 <br />
-                <div className="flex justify-between items-center mt-4 w-full max-w-[70%] mx-auto">
+                <div className="flex justify-between items-center mt-4 w-full max-w-[50%] mx-auto">
                     <Button
                         onClick={prevChapter}
                         variant="outline"
