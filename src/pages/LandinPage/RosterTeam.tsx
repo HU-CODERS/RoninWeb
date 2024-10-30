@@ -68,7 +68,7 @@ export default function TeamRoster() {
           <Button
             onClick={toggleOpen}
             variant="outline"
-            className="w-full flex justify-between items-center text-2xl font-semibold text-cyan-400 bg-gray-800 border-gray-700 p-5"
+            className="w-full flex justify-between items-center text-2xl font-semibold hover:bg-gray-800 hover:text-cyan-300 text-cyan-400 bg-gray-800 border-gray-700 p-5"
             aria-expanded={isOpen}
             aria-controls="players-list"
           >
