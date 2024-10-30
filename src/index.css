@@ -12,6 +12,42 @@ body {
   @apply bg-background text-foreground;
 } */
 
+/* Estilo para la barra de desplazamiento en general */
+* {
+  scrollbar-width:auto;
+  scrollbar-color: #6bd0ff #2a3345;
+}
+
+/* Estilo para la barra de desplazamiento en WebKit (Chrome, Safari, etc.) */
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #888888;
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
+
+/* Estilo para la esquina de la barra de desplazamiento */
+*::-webkit-scrollbar-corner {
+  background: #f1f1f1;
+}
+
+/* Ocultar la barra de desplazamiento en IE y Edge */
+* {
+  -ms-overflow-style: none;
+}
+
 @layer base {
   :root {
     --chart-1: 12 76% 61%;

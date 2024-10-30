@@ -9,7 +9,7 @@ import {
 import './index.css';
 
 // Pages
-import Home from './pages/LandinPage/Home';
+import Home from './pages/Home';
 import Error404 from './pages/Error404';
 
 const App = () => {

@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { ChevronDown, Users, Sword, Shield, Clock, MessageSquare, DollarSign, HelpCircle, Menu, X } from 'lucide-react'
-import TeamRoster from './RosterTeam'
-import PatrocinioComponent from './Patrocinio'
-import JoinRoninSection from './JoinRonin'
+import TeamRoster from './LandinPage/RosterTeam'
+import PatrocinioComponent from './LandinPage/Patrocinio'
+import JoinRoninSection from './LandinPage/JoinRonin'
+import RoninHistory from './LandinPage/aboutRonin'
 
 export default function RoninLandingPage() {
   const [showRequirements, setShowRequirements] = useState(false)
@@ -85,27 +86,7 @@ export default function RoninLandingPage() {
           </div>
         </section>
 
-        <section id="about-ronin" className="py-20 bg-gray-800">
-          <div className="container mx-auto px-6">
-            <h2 className="text-4xl font-bold mb-12 text-center">Sobre Ronin</h2>
-            <div className="grid md:grid-cols-2 gap-12">
-              <div>
-                <p className="text-lg mb-6">
-                  Somos el clan -RONIN-, nacido en agosto de 2022. Surgimos de un grupo de amigos con historia juntos en otro clan, pero con la visión de seguir nuestra pasión por competir, la estrategia y tácticas en "Hell Let Loose".
-                </p>
-                <p className="text-lg">
-                  Buscamos constantemente nuevos aliados que compartan esa chispa y pasión. Con ellos, queremos compartir lo aprendido y potenciar juntos el rendimiento del clan, además de construir lazos y amistades fuertes.
-                </p>
-              </div>
-              <div className="bg-gray-700 p-6 rounded-lg">
-                <h3 className="text-2xl font-semibold mb-4 text-cyan-400">Alianza con MERC</h3>
-                <p className="text-lg mb-4">
-                  Estamos orgullosos de nuestra alianza histórica con MERC, un pilar en la comunidad de HLL. Esta colaboración nos ha permitido alcanzar nuevas alturas y fortalecer nuestra presencia en la escena competitiva.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+        <RoninHistory/>
 
         <TeamRoster />
 
