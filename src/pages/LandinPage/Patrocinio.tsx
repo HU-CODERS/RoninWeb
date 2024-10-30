@@ -8,7 +8,7 @@ export default function PatrocinioComponent() {
   const [showSeedingInfo, setShowSeedingInfo] = useState(false)
 
   return (
-    <section id='sponsor-ronin' className="py-20 bg-gradient-to-br from-gray-900 via-cyan-900 to-gray-900">
+    <section id='sponsor-ronin' className="py-20 bg-gradient-to-br bg-gray-900">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-bold mb-12 text-center text-white">APOYA A RONIN & MERC</h1>
         
