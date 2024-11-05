@@ -4,9 +4,9 @@ export const teamMembers = {
       name: "justjorge",
       role: "Shogunato",
       joinDate: "21/08/2022",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/3Y7L6wT/asd-Jorge-Gallardo.jpg",
+      labels: ["Oficial de Escuadra","Fusilero","Asalto","Antitanque","Oteador de Recon"],
+      description: "Trabajo en la cordillera y vivo en el mar. Hace 1 año me le metia cabeza al rol del HLL. Ahora con nuestras nuevas generaciones se delega y apoyo con la adminitración y orden. Soy el hincha pelota que les gusta los procedimientos y que el discord se vea ordenado. Siempre pensando en el largo plazo de la comunidad Ronin.",
       socials: [
         {
           name: "instagram",
@@ -21,7 +21,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Fundador del Discord cuando era un asilo politico en momento de crisis del ex clan. Miembro fundador de Ronin del día -10."
     },
     {
       name: "Cdte. Negroni",
@@ -120,8 +120,8 @@ export const teamMembers = {
       role: "Shogunato",
       joinDate: "24/08/2022",
       avatar: "https://i.ibb.co/jwSbbFT/band-of-brothers-Alonso-Lanfranco.jpg",
-      labels: ["Oficial de Escuadra", "Asalto"],
-      description: "En la juego soy el padre de muchos ronin, los vi desde que eran unos nenes que ni sabian hacer un garry, y el mejor peruano que pueda existir en el clan, juego casual y competitivo, que solo juego de oficial, y culpable de que keltah sea mi eterno hijo ",
+      labels: ["Oficial de Escuadra", "Asalto","Apoyo","Ingeniero"],
+      description: "Soy arquitecto de profesion y  basicamente juego de oficial siempre, me encanta los juegos estilos milsim y cuando conoci hell tiene el balance perfecto para mi entre arcade y milsim.",
       socials: [
         {
           name: "instagram",
@@ -136,7 +136,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: "Soy parte de los creadores de ronin, se creo el clan con el fin de poder jugar hell libremente sin un lider supremo donde siempre tenga la razon, hoy en dia el clan no se enfoca solo a hell si no a diferentes juegos. "
+      whyRonin: "Creamos ronin con el fin de ser un espacio donde podamos ser libres, sin que nos controlen los audios, y mas importante donde nadie tiene la verdad absoluta."
     },
     {
       name: "Alvatronik",
@@ -207,6 +207,52 @@ export const teamMembers = {
         }
       ],
       whyRonin: ""
+    },
+    {
+      name: "READY",
+      role: "Recluta",
+      joinDate: "27/09/2022",
+      avatar: "https://i.ibb.co/1dxR7Ty/Capture-Luca-Scenna.png",
+      labels: ["Tripulante de Tanque"],
+      description: "Luca, 30 años. 90% de mi tiempo de juego es de artillero, estuve más tiempo insultando a mi conductor que jugando de infantería. Con esfuerzo y empeño, espero llegar a 100%. Frená cuando te digo, Wizzy!",
+      socials: [
+        {
+          name: "instagram",
+          url: ""
+        },
+        {
+          name: "youtube",
+          url: ""
+        },
+        {
+          name: "facebook",
+          url: ""
+        }
+      ],
+      whyRonin: "Por invitación, para conocer el lado competitivo del HLL, y para mejorar lo más posible."
+    },
+    {
+      name: "Wizzy",
+      role: "Recluta",
+      joinDate: "XX/09/2022",
+      avatar: "https://i.ibb.co/X8ZZ6L7/Whats-App-Image-2024-04-21-at-08-25-26-2-julian-campos.jpg",
+      labels: ["Tripulante de Tanque"],
+      description: "Un pelotudo.",
+      socials: [
+        {
+          name: "instagram",
+          url: ""
+        },
+        {
+          name: "youtube",
+          url: ""
+        },
+        {
+          name: "facebook",
+          url: ""
+        }
+      ],
+      whyRonin: "Me invito el pesado de READY."
     },
     {
       name: "Maxi Neder",
@@ -281,9 +327,9 @@ export const teamMembers = {
       name: "Belion",
       role: "Ronin",
       joinDate: "24/08/2022",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/9VLgB02/hercules-back-Belion.jpg",
+      labels: ["Comandante","Oficial de Escuadra","Ametrallador"],
+      description: "Soy Belion, hater n.º 1 de este clan y comandante en jefe de la división Hell-wings. Mis aficiones son competir en cualquier ámbito y ser el mejor dentro de mis limitaciones. Soy el cerebro detrás de una unidad que, para suerte o desgracia, reúne a los mejores tiradores con menos sentido común que un bot. En esta división no creemos en la democracia; la jerarquía se basa en quien tenga mejor habilidad para disparar. Así que, si eres bueno, nosotros te contactaremos. Mentira, puedes unirte cuando quieras, siempre y cuando seas bueno tolerando las críticas y tengas un buen sentido de la competencia el cual es el punto central de la división. ",
       socials: [
         {
           name: "instagram",
@@ -298,7 +344,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Me uní al clan con la idea de formar parte de un grupo capaz de competir contra los clanes gringos siendo latinoamericanos."
     },
     {
       name: "Gato",
@@ -414,9 +460,9 @@ export const teamMembers = {
       name: "Comunero",
       role: "Ronin",
       joinDate: "09/10/2022",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/tsjCKfd/momoe-alex-arce.png",
+      labels: ["Medico"],
+      description: "Soy el mejor medico de Ronin:  miro el mapa buscando compañeros para revivir(leonmart) les disparo y los vuelvo a revivir.",
       socials: [
         {
           name: "instagram",
@@ -431,7 +477,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Durante tres meses trató de invitarme LeonmarT porque le rompia la cola en las publicas del Sudaca 02. Al final le acepté la invitación."
     }, {
       name: "Coman C",
       role: "Ronin",
@@ -766,13 +812,13 @@ export const teamMembers = {
       name: "dACER",
       role: "Ronin",
       joinDate: "12/06/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/TbqVNPF/wqeqweqwe232-Gabriel-Ponce-gonzalez.jpg",
+      labels: ["Oficial de Escuadra","Fusilero","Asalto","Apoyo","Ametrallador","Ingeniero","Oteador de Recon"],
+      description: "Soy todo un personaje, Chileno sin mundial, sin selección de futbol, malaso para el hell y bueno para la droga, pero simpático(dicen), Juego lo que se me pinte en el HLL total soy bueno en todos los roles asique flexible en todos los aspectos que puedan existir en el juego y el que no me crea tiene toda la razón.",
       socials: [
         {
           name: "instagram",
-          url: ""
+          url: "https://www.instagram.com/g4briel_dcr/"
         },
         {
           name: "youtube",
@@ -783,7 +829,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Un día me random hace mas de 1 año, meti a jugar al server Hagamos garris (quería asistencias de kill en artillería porque me daba paja ir a matar) y estaba Salva y Robino troleando en el HQ de un Carentan(lo recuerdo como si hubiera sido ayer). Y me hablaron del clan y que jugaban mas organizados y todo el cuento que me metieron que parecía estafa piramidal, pero me intereso la propuesta para mejorar mi rendimiento en el juego que ya me estaba viciando y no sabia mucho, así que aquí aprendí y sigo aprendiendo del game gracias a todos los participantes del clan que han enseñado y aportado hasta con 1 grano de arena en cualquier aspecto, hemos compartido muchos días y convivido con gente que nunca pensé que iba a compartir como Argentinos, Uruguayos, Peruanos e incluso otros Chilenos, ya que aquí se odian hasta ellos mismos."
     },
     {
       name: "SINDRAMA",
@@ -812,9 +858,9 @@ export const teamMembers = {
       name: "PETUCO",
       role: "Ronin",
       joinDate: "17/06/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/0n2LZR8/enano-Matias-Gonzalez.gif",
+      labels: ["Oficial de Escuadra","Fusilero","Asalto","Apoyo","Ametrallador","Antitanque"],
+      description: "Soy un pibe que le gusta pasarla bien y reirse mucho. Las jodas no van a faltar! Me gusta el orden y que las cosas esten claras, por eso aporto desde mi posicion para una mejor sinergia entre todos los integrantes. Me gusta la tecnologia y me apasiona la informatica. Optimizamos PC, armamos computadoras y siempre alguna consulta llega. Feliz de poder aportar desde mi lugar para lo mejor de Ronin.",
       socials: [
         {
           name: "instagram",
@@ -829,7 +875,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Entre al clan antes de jugar mi primer partida, encontre que habia un servidor in-game que tenia un discord en su nombre. Entre y vi una canal con varios clanes postulandose. De todos esos elegi a Ronin porque me gusto el nombre. Con el tiempo conoci mucha gente linda y logramos generar vinculo, todos aportando desde nuestro lado para conseguir lo mejor a nivel grupal."
     },
     {
       name: "Petrus",
@@ -1874,9 +1920,9 @@ export const teamMembers = {
       name: "Arie",
       role: "Ronin",
       joinDate: "06/05/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/s1Td44Z/mikey-Ariel-Martinez.webp",
+      labels: ["Fusilero","Asalto","Francotirador de Recon"],
+      description: "Hola, soy Arie, me gusta jugar a los jueguitos. En especial el PZ y el HLL. No suelo hacer garrys en publicas y solo marco tanques. En las partidas competitivas me gusta manejar porque soy mejor que el anterior conductor (el peruano).",
       socials: [
         {
           name: "instagram",
@@ -1891,19 +1937,19 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Porque estaba viendo un poco el mundo del competitivo del HLL y un día jugando un SMDM, salvador me invito a unirme al clan. Y esa es mi historia. Ahora juego en BUSHIDO y agarro el sniper siempre que puedo porque no me gusta morir por artillería. "
     },
     {
       name: "Katz",
       role: "Recluta",
-      joinDate: "??/??/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      joinDate: "12/05/2024",
+      avatar: "https://i.ibb.co/8MyHjvC/temor-m-Katz-Katz.jpg",
+      labels: ["Apoyo","Ametrallador","Artilleria ANASHEI"],
+      description: "Me llamo Hugo y me la paso viciando.",
       socials: [
         {
           name: "instagram",
-          url: ""
+          url: "https://www.instagram.com/hugo.katz/"
         },
         {
           name: "youtube",
@@ -1914,7 +1960,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Me uni a Ronin porque me gusta el aspecto competitivo de los juegos. Jugando partidas publicas escuche hablar del Clan y me puse a buscar y ver algunos videos. Me copo lo que vi y decidi postularme. No me arrepiento. El Clan me parece un buen proyecto y la gente es copada, me quedo a aportar mi granito de arena."
     },
     {
       name: "Morrigan",
@@ -2243,24 +2289,24 @@ export const teamMembers = {
       name: "SNATI",
       role: "Recluta",
       joinDate: "08/09/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "hhttps://i.ibb.co/SNgVb3d/DSC-8627-resized-1-Snati.jpg",
+      labels: ["Oficial de Escuadra","Asalto","Apoyo","Ametrallador","Antitanque","Ingeniero","Francotirador de Recon"],
+      description: "Soy Dj, productor musical, owner de dos sellos y diseñador pero también un apasionado por la historia y los videojuegos, sobre todo de la segunda guerra mundial y cuando me entere de HLL y lo probe me quede fascinado.",
       socials: [
         {
           name: "instagram",
-          url: ""
+          url: "https://www.instagram.com/snati.undsht/"
         },
         {
-          name: "youtube",
-          url: ""
+          name: "soundcloud",
+          url: "https://soundcloud.com/snati_undsht"
         },
         {
           name: "facebook",
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Por qué empecé a cruzarme con ellos en las partidas y me dio mucha curiosidad el mundo competitivo."
     },
     {
       name: "ElPlomero",
