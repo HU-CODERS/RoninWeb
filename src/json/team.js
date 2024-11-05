@@ -211,7 +211,7 @@ export const teamMembers = {
     {
       name: "READY",
       role: "Recluta",
-      joinDate: "27/09/2022",
+      joinDate: "02/11/2024",
       avatar: "https://i.ibb.co/1dxR7Ty/Capture-Luca-Scenna.png",
       labels: ["Tripulante de Tanque"],
       description: "Luca, 30 años. 90% de mi tiempo de juego es de artillero, estuve más tiempo insultando a mi conductor que jugando de infantería. Con esfuerzo y empeño, espero llegar a 100%. Frená cuando te digo, Wizzy!",
@@ -234,7 +234,7 @@ export const teamMembers = {
     {
       name: "Wizzy",
       role: "Recluta",
-      joinDate: "XX/09/2022",
+      joinDate: "02/11/2024",
       avatar: "https://i.ibb.co/X8ZZ6L7/Whats-App-Image-2024-04-21-at-08-25-26-2-julian-campos.jpg",
       labels: ["Tripulante de Tanque"],
       description: "Un pelotudo.",
