@@ -96,13 +96,13 @@ export const teamMembers = {
       name: "Werxtrax",
       role: "Shogunato",
       joinDate: "24/08/2022",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/fpzR9tg/s-l1600-Renato-Silva-werxtrax.webp",
+      labels: ["Apoyo","Ingeniero","Comandante de Tanque","Tripulante de Tanque"],
+      description: "Buenas, soy werxtrax ex miembro antiguo de Ronin, Futuro abogado, el rol que fungia en el clan era de Shogunato y de tanquista, siempre he querido dar lo mejor de mi en post de ayudar a los demas con mi sabiduria y habilidades, si algun dia tienen un problema pueden acudir a mi con toda la confianza, siempre profesional pero sobre todo un amigo. ",
       socials: [
         {
           name: "instagram",
-          url: ""
+          url: "https://www.instagram.com/myheartstrong_/"
         },
         {
           name: "youtube",
@@ -113,7 +113,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Por la busqueda del mejor juego competitivo, camaderia, compañerismo y buenos amigos."
     },
     {
       name: "Infamous",
