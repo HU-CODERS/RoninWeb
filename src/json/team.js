@@ -592,9 +592,9 @@ export const teamMembers = {
       name: "Uli_casla",
       role: "Ronin",
       joinDate: "21/04/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/XVsXth3/hasbu-cuervo-Ultra-Maga-Ulises-Rubio.jpg",
+      labels: ["Fusilero","Apoyo","Antitanque"],
+      description: "Si hay lugar para un chiste lo hago. Vago, falopero y soy hincha del Ciclón.",
       socials: [
         {
           name: "instagram",
@@ -609,7 +609,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Para carrear a los horrendos de Pecci y Gonzabolso."
     }, {
       name: "Salva",
       role: "Ronin",
@@ -933,9 +933,9 @@ export const teamMembers = {
       name: "TachanKakV",
       role: "Ronin",
       joinDate: "23/07/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/pnxytZg/thanos-Tachanka-Apothe.png",
+      labels: ["Oficial de Escuadra","Antitanque","Comandante de Tanque","Tripulante de Tanque"],
+      description: "Soy el emoji 🤓, estudio, juego y hago cosplay.",
       socials: [
         {
           name: "instagram",
@@ -950,7 +950,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Recuerdo jugar de tanque en el servidor South America 03 allá por 2021 con randoms enseñando lo que sabía y una vez no recuerdo bien si fue ComanC o Comunero que se metió a la tripulación jugamos una partidaza y luego me mandó el link del Discord de Ronin."
     },
     {
       name: "kibirid",
@@ -1375,9 +1375,9 @@ export const teamMembers = {
       name: "felipezeak",
       role: "Recluta",
       joinDate: "25/02/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/2cccV20/Captura-de-pantalla-2024-08-01-143524-Felipe-Valencia.png",
+      labels: ["Comandante","Oficial de Escuadra","Antitanque","Ingeniero","Comandante de Tanque","Tripulante de Tanque"],
+      description: "Oficial de Blindaje.",
       socials: [
         {
           name: "instagram",
@@ -1385,14 +1385,14 @@ export const teamMembers = {
         },
         {
           name: "youtube",
-          url: ""
+          url: "https://www.youtube.com/@furiuswolves"
         },
         {
           name: "facebook",
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Desde que ingrese a Hell let loose tuve la meta de ingresar a la escena competitiva, buscando hacer mi lugar en clanes con enfoque en blindados, hasta que conoci el ambiente profesionalizado de Ronin y decidí enlistarme en las filas buscando armar mi propia escuadra de blindaje y destacar en el equipo. "
     },
     {
       name: "JIALLMD",
