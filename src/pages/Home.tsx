@@ -5,6 +5,7 @@ import TeamRoster from './LandinPage/RosterTeam'
 import PatrocinioComponent from './LandinPage/Patrocinio'
 import JoinRoninSection from './LandinPage/JoinRonin'
 import RoninHistory from './LandinPage/aboutRonin'
+import TrayectoriaClanRonin from './LandinPage/trayectoriaRonin'
 
 export default function RoninLandingPage() {
   const [showRequirements, setShowRequirements] = useState(false)
@@ -87,6 +88,8 @@ export default function RoninLandingPage() {
         </section>
 
         <RoninHistory/>
+
+        {/* <TrayectoriaClanRonin/> */}
 
         <TeamRoster />
 

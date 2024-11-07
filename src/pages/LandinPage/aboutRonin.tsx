@@ -17,50 +17,38 @@ interface Chapter {
 
 const chapters: Chapter[] = [
     {
-        title: "El Nacimiento de Ronin",
+        title: "Historia de Ronin",
         content: [
             {
-                text: "Somos el clan -RONIN-, nacido en agosto de 2022. Surgimos de un grupo de amigos con historia juntos en otro clan, pero con la visión de seguir nuestra pasión por competir, la estrategia y tácticas en 'Hell Let Loose'.",
-                image: "https://caminodelsamurai.net/wp-content/uploads/ronin-solitario-campo-batalla-1.webp?height=100&width=40"
-            },
-            {
-                text: "Nuestros fundadores, unidos por la pasión por el juego y el deseo de excelencia, decidieron crear un espacio donde la estrategia y la camaradería fueran los pilares fundamentales."
+                text: "Ronin nació de la resiliencia. Después de una dura derrota en el HCA en 2022, decidimos dejar de jugar en clanes, pero el amor por Hell Let Loose nunca se apagó. Nos reunimos sin nombre ni servidor y empezamos a construir un espacio sólido, con una visión competitiva clara. Nos enfocamos en crear una estructura que apoyara tanto a los jugadores antiguos como a los nuevos, fomentando una comunidad de aprendizaje, disciplina y diplomacia.",
             },
         ]
     },
     {
-        title: "Nuestra Misión",
+        title: "Fundamentos de Ronin",
         content: [
             {
-                text: "Buscamos constantemente nuevos aliados que compartan esa chispa y pasión. Con ellos, queremos compartir lo aprendido y potenciar juntos el rendimiento del clan, además de construir lazos y amistades fuertes.",
-                image: "https://caminodelsamurai.net/wp-content/uploads/ronin-solitario-campo-batalla-1.webp?height=100&width=40"
+                text: "El corazón de Ronin es su comunidad y sus normas. Valoramos el entrenamiento en servidores públicos, la convivencia y el respeto hacia otros clanes, ya sean aliados o no. Trabajamos en conjunto para implementar mejoras y facilitar el desarrollo competitivo, minimizando la burocracia y promoviendo siempre el diálogo abierto.",
             },
+        ]
+    },
+    {
+        title: "Ronin 2.0 y la Visión a Futuro",
+        content: [
             {
-                text: "Nos esforzamos por ser más que un simple clan de gaming. Aspiramos a ser una comunidad donde cada miembro pueda crecer, aprender y disfrutar del juego en un ambiente de respeto y colaboración."
+                text: "Ronin evoluciona gracias al esfuerzo de todos. Nos enfocamos en ofrecer herramientas a los nuevos reclutas, aprendiendo de experiencias pasadas y siendo autocríticos. Nuestro objetivo es reducir la fuga de información y mejorar continuamente el sistema, delegando el liderazgo para evitar el estancamiento y el personalismo.",
             }
         ]
     },
     {
-        title: "Alianza con MERC",
+        title: "Torneos y Expansión",
         content: [
             {
-                text: "Estamos orgullosos de nuestra alianza histórica con MERC, un pilar en la comunidad de HLL. Esta colaboración nos ha permitido alcanzar nuevas alturas y fortalecer nuestra presencia en la escena competitiva.",
-                image: "https://caminodelsamurai.net/wp-content/uploads/ronin-solitario-campo-batalla-1.webp?height=100&width=40"
+                text: "Empezamos con pocos miembros, uniendo jugadores de servidores públicos y otros clanes. Pronto, logramos participar en torneos internacionales de [18 vs 18], con el apoyo de figuras clave y contactos de aliados como Compton de MERC y Skyline de Vanguarda, además de amigos de clanes internacionales que se sumaron a la causa. Esto nos permitió competir contra equipos de Europa y EE. UU., posicionando a Ronin en la escena internacional.",
+                image: "https://i.ibb.co/7SKqKYb/Miniaturas-YT-Ronin-Mesa-de-trabajo-1-copia-22.png"
             },
             {
-                text: "Juntos, hemos participado en numerosos torneos y eventos, demostrando que la unión hace la fuerza y que las alianzas estratégicas son clave en el mundo del gaming competitivo."
-            }
-        ]
-    },
-    {
-        title: "Nuestro Futuro",
-        content: [
-            {
-                text: "Mirando hacia adelante, -RONIN- se compromete a seguir creciendo, aprendiendo y dejando nuestra marca en la comunidad de Hell Let Loose. Juntos, forjaremos un legado de excelencia y camaradería.",
-                image: "https://caminodelsamurai.net/wp-content/uploads/ronin-solitario-campo-batalla-1.webp?height=100&width=40"
-            },
-            {
-                text: "Nuestros objetivos incluyen expandir nuestra presencia en torneos internacionales, desarrollar programas de entrenamiento para nuevos miembros y contribuir al crecimiento saludable de la comunidad de HLL."
+                text: "Hoy en día, seguimos trabajando para cumplir las demandas de nuestra comunidad y para el crecimiento continuo de Ronin en la escena competitiva de Hell Let Loose."
             },
         ]
     }
@@ -92,7 +80,7 @@ export default function RoninHistory() {
                 </h2>
                 <div
                     ref={scrollContainerRef}
-                    className="w-full max-w-[50%] h-[500px] mx-auto bg-gray-800 p-6 sm:p-8 rounded-lg shadow-2xl border border-gray-700 overflow-y-auto"
+                    className="w-full max-w-[50%] h-[auto] mx-auto bg-gray-800 p-6 sm:p-8 rounded-lg shadow-2xl border border-gray-700 overflow-y-auto"
                 >
                     <AnimatePresence mode="wait">
                         <motion.div

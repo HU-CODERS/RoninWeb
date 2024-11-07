@@ -3,6 +3,9 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { HelpCircle } from 'lucide-react'
 import emailjs from '@emailjs/browser'
+import { Dialog, DialogHeader, DialogTitle, DialogDescription, DialogTrigger, DialogContent } from '../../components/ui/dialog'
+import { Button } from '../../components/ui/button'
+
 
 interface FormData {
   steam_name: string
@@ -28,9 +31,25 @@ export default function JoinRoninSection() {
     who_invited: ''
   })
 
+  const displayModalEmail = () => {
+    <>
+    <Dialog>
+        <DialogContent className="sm:max-w-[425px]">
+          <DialogHeader>
+            <DialogTitle className="text-2xl font-bold mb-4 text-center">¡Postulación enviada!</DialogTitle>
+            <DialogDescription className="text-lg text-center">
+              Gracias por tu interes de unirte a Ronin.<br />
+              Unite al Discord mientras revisamos tu postulación.
+            </DialogDescription>
+          </DialogHeader>
+        </DialogContent>
+    </Dialog>
+    </>
+  }
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    
+
     try {
       await emailjs.send(
         "ronin_928$sxoowi",
@@ -47,7 +66,7 @@ export default function JoinRoninSection() {
         },
         "j6TUh_MBuDaCsAvOi"
       )
-      alert("Solicitud enviada con éxito!")
+      displayModalEmail()
       // Reset form
       e.preventDefault()
       setFormData({
@@ -76,30 +95,21 @@ export default function JoinRoninSection() {
     }))
   }
 
+  const isWidgetProfileEmpty = () => {
+
+  }
+
   return (
     <section id="join-ronin" className="py-20 bg-gray-800">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold mb-12 text-center">Únete a Nosotros</h2>
-        <div className="grid grid-cols-1 gap-12">
-          <div className="bg-gray-700 p-6 rounded-lg">
-            <h3 className="text-2xl font-semibold mb-4 text-white">Únete al Servidor de Ronin</h3>
+        <div className="grid grid-cols-2 gap-12 text-center align-middle justify-center">
+          <div className="bg-gray-700 p-6 rounded-lg flex flex-col justify-center align-middle">
+            <h3 className="text-2xl font-semibold mb-4 text-white">Únete al Discord de Ronin</h3>
             <p className="mb-6 text-gray-300">
-              Tenemos un servidor publico tanto de entrenamiento como de partidas casuales. Unite al discord para saber más.
+              Si querés ser parte de Ronin, unite a nuestro discord y conocé al  equipo.
             </p>
-            <div className="relative group">
-              <a
-                href="https://discord.gg/8An65sVmrX"
-                target='_blank'
-                className="block w-full h-80 bg-[url('https://i.ytimg.com/vi/Ah8EWW-B8Js/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD8HK50Se9Br-b4A-iJdqoLUFFp8A')] bg-cover bg-center rounded-lg transition-opacity duration-300 group-hover:opacity-75"
-                aria-label="Unirse al servidor de Discord"
-              >
-                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <span className="bg-black bg-opacity-75 text-white px-4 py-2 rounded-lg text-lg font-semibold">
-                    Haz click para unirte al Discord
-                  </span>
-                </div>
-              </a>
-            </div>
+            <iframe src="https://discord.com/widget?id=1011063821802156132" width="auto" height="500" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
           </div>
           <div className="bg-gray-700 p-6 rounded-lg">
             <h3 className="text-2xl font-semibold mb-4">Aplica para unirte a Ronin</h3>
@@ -142,7 +152,7 @@ export default function JoinRoninSection() {
                 required
               />
               <div className="flex items-center space-x-2">
-                <input 
+                <input
                   type="checkbox"
                   id="headset"
                   name="headset"
@@ -153,7 +163,7 @@ export default function JoinRoninSection() {
                 <label htmlFor="headset">Tengo headset con micrófono</label>
               </div>
               <div className="flex items-center space-x-2">
-                <input 
+                <input
                   type="checkbox"
                   id="competitivo"
                   name="competitivo"
@@ -163,7 +173,7 @@ export default function JoinRoninSection() {
                 />
                 <label htmlFor="competitivo">Puedo unirme para prácticas o competitivo</label>
               </div>
-              <select 
+              <select
                 name="how_uk_ronin"
                 value={formData.how_uk_ronin}
                 onChange={handleInputChange}
@@ -208,8 +218,8 @@ export default function JoinRoninSection() {
               >
                 <h4 className="font-semibold mb-2">Requisitos para unirse:</h4>
                 <ul className="list-disc list-inside">
-                  <li>Ser nivel 80 o superior</li>
-                  <li>Jugar frecuentemente en Hagamos Garry</li>
+                  <li>Ser al menos nivel 80 en adelante</li>
+                  <li>Jugar frecuentemente en los servidores de Ronin</li>
                   <li>Tener experiencia en juego competitivo</li>
                   <li>Disponibilidad para entrenamientos y torneos</li>
                 </ul>

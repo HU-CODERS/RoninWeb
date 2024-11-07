@@ -300,29 +300,7 @@ export const teamMembers = {
       ],
       whyRonin: ""
     },
-    {
-      name: "Amaleon",
-      role: "Ronin",
-      joinDate: "24/08/2022",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
-      socials: [
-        {
-          name: "instagram",
-          url: ""
-        },
-        {
-          name: "youtube",
-          url: ""
-        },
-        {
-          name: "facebook",
-          url: ""
-        }
-      ],
-      whyRonin: ""
-    },
+    
     {
       name: "Belion",
       role: "Ronin",
@@ -346,29 +324,7 @@ export const teamMembers = {
       ],
       whyRonin: "Me uní al clan con la idea de formar parte de un grupo capaz de competir contra los clanes gringos siendo latinoamericanos."
     },
-    {
-      name: "Gato",
-      role: "Ronin",
-      joinDate: "24/08/2022",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
-      socials: [
-        {
-          name: "instagram",
-          url: ""
-        },
-        {
-          name: "youtube",
-          url: ""
-        },
-        {
-          name: "facebook",
-          url: ""
-        }
-      ],
-      whyRonin: ""
-    }, {
+   {
       name: "Meeiko",
       role: "Ronin",
       joinDate: "27/08/2022",
@@ -390,29 +346,7 @@ export const teamMembers = {
         }
       ],
       whyRonin: ""
-    }, {
-      name: "Chango",
-      role: "Ronin",
-      joinDate: "16/09/2022",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
-      socials: [
-        {
-          name: "instagram",
-          url: ""
-        },
-        {
-          name: "youtube",
-          url: ""
-        },
-        {
-          name: "facebook",
-          url: ""
-        }
-      ],
-      whyRonin: ""
-    }, {
+    },  {
       name: "GordoAnsioso",
       role: "Ronin",
       joinDate: "25/09/2022",
@@ -504,9 +438,9 @@ export const teamMembers = {
       name: "Darwin",
       role: "Ronin",
       joinDate: "14/10/2022",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/F6jYrHQ/hell-let-loose-developer-briefing-a-new-plan-for-the-future-v0-Sm-Ifvwka869-CBxdqsy-XDrh-B925-U2-L80.webp",
+      labels: ["Fusilero","Asalto","Apoyo"],
+      description: "mis roles en el juego siempre ataque en primera línea de asalto o fusilero automático. En la vida real solo un simple panadero jaja.",
       socials: [
         {
           name: "instagram",
@@ -521,33 +455,11 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "me invitaron jugué unas partidas me parecieron buena onda y me sentí cómodo jugando explore el juego a otro nivel ya que aprendí muchas cosas del juego que al principio no tenia idea."
     }, {
       name: "SirDaniel",
       role: "Ronin",
       joinDate: "15/11/2022",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
-      socials: [
-        {
-          name: "instagram",
-          url: ""
-        },
-        {
-          name: "youtube",
-          url: ""
-        },
-        {
-          name: "facebook",
-          url: ""
-        }
-      ],
-      whyRonin: ""
-    }, {
-      name: "Kaplan",
-      role: "Ronin",
-      joinDate: "23/11/2022",
       avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
       labels: [],
       description: "",
@@ -764,29 +676,7 @@ export const teamMembers = {
         }
       ],
       whyRonin: "Para poder participar en eventos y aprender más sobre las mecánicas ocultas del game 🔥"
-    }, {
-      name: "Koky",
-      role: "Recluta",
-      joinDate: "23/05/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
-      socials: [
-        {
-          name: "instagram",
-          url: ""
-        },
-        {
-          name: "youtube",
-          url: ""
-        },
-        {
-          name: "facebook",
-          url: ""
-        }
-      ],
-      whyRonin: ""
-    }, {
+    },{
       name: "Fafa",
       role: "Ronin",
       joinDate: "07/06/2023",
@@ -814,7 +704,7 @@ export const teamMembers = {
       joinDate: "12/06/2023",
       avatar: "https://i.ibb.co/TbqVNPF/wqeqweqwe232-Gabriel-Ponce-gonzalez.jpg",
       labels: ["Oficial de Escuadra","Fusilero","Asalto","Apoyo","Ametrallador","Ingeniero","Oteador de Recon"],
-      description: "Soy todo un personaje, Chileno sin mundial, sin selección de futbol, malaso para el hell y bueno para la droga, pero simpático(dicen), Juego lo que se me pinte en el HLL total soy bueno en todos los roles asique flexible en todos los aspectos que puedan existir en el juego y el que no me crea tiene toda la razón.",
+      description: "Soy todo un personaje, Chileno sin mundial, sin selección de futbol, malaso para el hell y bueno para la droga, pero simpático (dicen). Juego lo que se me pinte en el HLL total soy bueno en todos los roles asique flexible en todos los aspectos que puedan existir en el juego y el que no me crea tiene toda la razón.",
       socials: [
         {
           name: "instagram",
@@ -899,29 +789,6 @@ export const teamMembers = {
         }
       ],
       whyRonin: "Una noche desperté en mi cama bañado en sudor luego de haber pasado todo el día en el hell let loose, y note que algo no andaba bien, veía las imágenes en mi cabeza del mapa vacío sin garrys y oía los gritos de mis compañeros de equipo 'Son todos unos mancos', 'Si quieren solo atacar vayan al battlefield', 'Que hace ese tanque pesado rodeando mientras perdemos el punto'. Me costo mucho darme cuenta de que significaba todo esto, hasta que di con un alma a fin que me pregunto por qué no me unía a Ronin que hacía partidas organizadas y competitivas, y aquí estoy luego de mucho tiempo, y siguen sin armar garrys."
-    },
-    {
-      name: "Guiso de waska",
-      role: "Recluta",
-      joinDate: "22/06/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
-      socials: [
-        {
-          name: "instagram",
-          url: ""
-        },
-        {
-          name: "youtube",
-          url: ""
-        },
-        {
-          name: "facebook",
-          url: ""
-        }
-      ],
-      whyRonin: ""
     },
     {
       name: "IGNA",
@@ -1020,9 +887,9 @@ export const teamMembers = {
       name: "Yasked",
       role: "Ronin",
       joinDate: "03/07/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/dgdXQsh/baa3d7b4-a303-47c1-b792-096728f1f129-Javier-Albarran.jpg",
+      labels: ["Comandante","Apoyo","Antitanque","Ingeniero"],
+      description: "Soy una persona que siempre esta dispuesta para ayudar, en mis roles como jugador soy alguien que no te dejara nunca a pata, en lo que sea juego no importa roolear todo el tiempo o pasar por todas las clases.",
       socials: [
         {
           name: "instagram",
@@ -1037,7 +904,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Por que son un gran grupo desde el momento que quise ingresar, siempre fueron muy compañeros."
     },
     {
       name: "Paitox",
@@ -1225,52 +1092,6 @@ export const teamMembers = {
       someElse: ""
     },
     {
-      name: "TITI",
-      role: "Recluta",
-      joinDate: "06/09/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
-      socials: [
-        {
-          name: "instagram",
-          url: ""
-        },
-        {
-          name: "youtube",
-          url: ""
-        },
-        {
-          name: "facebook",
-          url: ""
-        }
-      ],
-      whyRonin: ""
-    },
-    {
-      name: "Alex_03",
-      role: "Recluta",
-      joinDate: "07/09/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
-      socials: [
-        {
-          name: "instagram",
-          url: ""
-        },
-        {
-          name: "youtube",
-          url: ""
-        },
-        {
-          name: "facebook",
-          url: ""
-        }
-      ],
-      whyRonin: ""
-    },
-    {
       name: "CrazyIvan",
       role: "Ronin",
       joinDate: "10/09/2023",
@@ -1297,7 +1118,7 @@ export const teamMembers = {
       name: "Happy",
       role: "Ronin",
       joinDate: "12/09/2023",
-      avatar: "https://cdn.discordapp.com/attachments/1295390856177782907/1299504355367452733/sin-novedad-en-el-frente-pelicula-netflix-oscars-2023-640ca1455d0f8.png?ex=671d713d&is=671c1fbd&hm=cbe59e74523af0b9b9416bb98ce47be6c4897b2479caebccef63f19592807ebf&",
+      avatar: "https://i.ibb.co/3Ry0yzx/sin-novedad-en-el-frente-pelicula-netflix-oscars-2023-640ca1455d0f8.png",
       description: "Recorrí el mundo 2 veces, hable con todos una vez Vi a 2 ballenas teniendo sexo y 3 ferias mundiales. Tengo mas sexo mas dulce y mas completo que cualquiera de los que están aquí. Soy un hombre gruja de cuerpo duro, pelo en pecho.Paracaidista ruidoso experto en demoliciones. No hay nada que no pueda hacer, no hay cielos demasiados altos ni mares muy agresivos.Aprendí muchas lecciones en mi vida, no le dispares a un hombre de gran calibre con un arma de calibre pequeño.Todo lo que vale la pena hacer, hay que hacerlo, la moderación es para cobardes. Soy un amante y combatiente, soy un Ronin de la división Hell Wings, así que si se sienten grullas, vuelen, no hay lugar para cobardes. Salud chicos.",
       labels: ["Oficial de Escuadra", "Ametrallador"],
       socials: [
@@ -1316,29 +1137,6 @@ export const teamMembers = {
       ],
       whyRonin: "Me uní por por el competitivo",
       someElse: ""
-    },
-    {
-      name: "dilcort",
-      role: "Recluta",
-      joinDate: "19/09/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
-      socials: [
-        {
-          name: "instagram",
-          url: ""
-        },
-        {
-          name: "youtube",
-          url: ""
-        },
-        {
-          name: "facebook",
-          url: ""
-        }
-      ],
-      whyRonin: ""
     },
     {
       name: "Forest",
@@ -1390,48 +1188,26 @@ export const teamMembers = {
       name: "7ROYAN",
       role: "Ronin",
       joinDate: "20/09/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/SnNXjZ4/20241103194707-1-7-R-O-Y-A-N.jpg",
+      labels: ["Asalto","Ametrallador","Ingeniero","Tripulante de Tanque"],
+      description: "Soy un jugador que le gustan los juegos shooters y mas de las dos guerras mundiales. Por eso empecé a jugar Hell let loose y descubrir que es un juego muy inmersivo y trabajo de equipo. Así que me metí de lleno y por suerte encontré este clan con otros players que comparten el mismo gusto que yo en este juego.",
       socials: [
         {
           name: "instagram",
-          url: ""
+          url: "https://www.instagram.com/7royan/"
         },
         {
           name: "youtube",
-          url: ""
+          url: "https://www.youtube.com/@7royan542"
         },
         {
-          name: "facebook",
-          url: ""
+          name: "tiktok",
+          url: "https://www.tiktok.com/@7royan_"
         }
       ],
-      whyRonin: ""
+      whyRonin: "Me uní a Ronin porque quería experimentar el verdadero juego en equipo del Hell let Loose, ya que cuando empecé también pertenecía a otro clan pero por temas personales tuve que dejar el juego un tiempo, pero por suerte cuando volví y me uní a Ronin encontré a personas que estaban en mi primer clan, eso me ayudo a incorporarme rápido en el grupo. Hoy creo que soy un suport importante en las partidas oficiales y eso me inspira a seguir jugando mi rol y seguir aprendiendo. Ayudar a mis compañeros fuera y dentro del campo de batalla es lo que me divierte de este juego."
     },
-    {
-      name: "MANOLO",
-      role: "Recluta",
-      joinDate: "22/09/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
-      socials: [
-        {
-          name: "instagram",
-          url: ""
-        },
-        {
-          name: "youtube",
-          url: ""
-        },
-        {
-          name: "facebook",
-          url: ""
-        }
-      ],
-      whyRonin: ""
-    },
+   
     {
       name: "Valdez",
       role: "Ronin",
@@ -1478,79 +1254,33 @@ export const teamMembers = {
       ],
       whyRonin: ""
     },
-    {
-      name: "GeneralQuito",
-      role: "Recluta",
-      joinDate: "25/11/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
-      socials: [
-        {
-          name: "instagram",
-          url: ""
-        },
-        {
-          name: "youtube",
-          url: ""
-        },
-        {
-          name: "facebook",
-          url: ""
-        }
-      ],
-      whyRonin: ""
-    },
-    {
-      name: "WalterSK",
-      role: "Recluta",
-      joinDate: "28/11/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
-      socials: [
-        {
-          name: "instagram",
-          url: ""
-        },
-        {
-          name: "youtube",
-          url: ""
-        },
-        {
-          name: "facebook",
-          url: ""
-        }
-      ],
-      whyRonin: ""
-    },
+    // {
+    //   name: "WalterSK",
+    //   role: "Recluta",
+    //   joinDate: "28/11/2023",
+    //   avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
+    //   labels: [],
+    //   description: "",
+    //   socials: [
+    //     {
+    //       name: "instagram",
+    //       url: ""
+    //     },
+    //     {
+    //       name: "youtube",
+    //       url: ""
+    //     },
+    //     {
+    //       name: "facebook",
+    //       url: ""
+    //     }
+    //   ],
+    //   whyRonin: ""
+    // },
     {
       name: "4l console",
       role: "Ronin",
       joinDate: "02/12/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
-      socials: [
-        {
-          name: "instagram",
-          url: ""
-        },
-        {
-          name: "youtube",
-          url: ""
-        },
-        {
-          name: "facebook",
-          url: ""
-        }
-      ],
-      whyRonin: ""
-    },
-    {
-      name: "Tukuman",
-      role: "Recluta",
-      joinDate: "03/01/2024",
       avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
       labels: [],
       description: "",
@@ -1594,35 +1324,12 @@ export const teamMembers = {
       whyRonin: ""
     },
     {
-      name: "Señor Kino",
-      role: "Ronin",
-      joinDate: "05/02/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
-      socials: [
-        {
-          name: "instagram",
-          url: ""
-        },
-        {
-          name: "youtube",
-          url: ""
-        },
-        {
-          name: "facebook",
-          url: ""
-        }
-      ],
-      whyRonin: ""
-    },
-    {
       name: "Comodin",
       role: "Recluta",
       joinDate: "14/02/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/tPzSn6X/Imagen-de-Whats-App-2024-08-11-a-las-14-22-49-075b094a-Gaston-Puccioni.jpg",
+      labels: ["Comandante","Oficial de Escuadra","Fusilero","Asalto","Medico","Apoyo","Ametrallador","Antitanque","Ingeniero","Comandante de Tanque","Tripulante de Tanque","Oteador de Recon","Francotirador de Recon"],
+      description: "24 años. 885 horitas de juego. Soy capaz de desempeñar cualquier rol que se me encomiende, soy bastante competitivo, me cuesta hablar de manera suelta con la gente al menos hasta que agarro confianza, a veces me tiro abajo por la brecha de habilidad en algunos aspectos con respecto a los demás miembros del clan pero a su vez es lo que impulsa a mejorar y querer ser aquel en quien los demás puedan confiar y contar al momento de la verdad, mientras mi corazón lata, Ronin contara conmigo. No existe montaña tan alta ni valle tan bajo ",
       socials: [
         {
           name: "instagram",
@@ -1637,31 +1344,9 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Quise probarme a mi mismo entrando a un clan competitivo. A primeras luces no le veía nada de especial. Un clan mas, me decía a mi mismo, sin embargo al pasar el tiempo me encontré una familia a la cual pertenecer y aunque aun no conozco a muchos espero en algún momento hacerlo. Gracias a Ronin supere un techo en el HLL que no ,me creía capaz. Hoy por hoy, gracias a las enseñanzas del clan y los amigos que forme me volví en el mejor tanquista de latam pa, no nació ni nacerá alguien mejor que el zorro de Foy."
     },
-    {
-      name: "Koslay",
-      role: "Recluta",
-      joinDate: "28/02/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
-      socials: [
-        {
-          name: "instagram",
-          url: ""
-        },
-        {
-          name: "youtube",
-          url: ""
-        },
-        {
-          name: "facebook",
-          url: ""
-        }
-      ],
-      whyRonin: ""
-    },
+   
     {
       name: "Momo",
       role: "Ronin",
@@ -1777,52 +1462,6 @@ export const teamMembers = {
         }
       ],
       whyRonin: "Me aburrí de perder las partidas públicas, gente con poco skill, logística, reacción y puntería, tenía ganas de más, algo más frenético y organizado, todo lo contrario a lo anteriormente mencionado, me invitaron varias veces unirme al clan, pero no estaba interesado en ese momento, ya que jugaba casualmente. Supe un día que hacían amistosos contra clanes, por lo que pregunté y me invitaron sin vacilar a un scrim, me sentaron tantas veces, me sentí humillado y pisoteado, por lo que me propuse mejorar y devolverles lo que me arrebataron ese día."
-    },
-    {
-      name: "Licha",
-      role: "Recluta",
-      joinDate: "??/??/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
-      socials: [
-        {
-          name: "instagram",
-          url: ""
-        },
-        {
-          name: "youtube",
-          url: ""
-        },
-        {
-          name: "facebook",
-          url: ""
-        }
-      ],
-      whyRonin: ""
-    },
-    {
-      name: "Thorfin",
-      role: "Ronin",
-      joinDate: "??/??/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
-      socials: [
-        {
-          name: "instagram",
-          url: ""
-        },
-        {
-          name: "youtube",
-          url: ""
-        },
-        {
-          name: "facebook",
-          url: ""
-        }
-      ],
-      whyRonin: ""
     },
     {
       name: "Spectre",
@@ -2101,29 +1740,6 @@ export const teamMembers = {
       whyRonin: "No tenía idea del competitivo en Hell Let Loose. Me pasé 100 horas jugando y roleando de médico en servidores poco serios, pero un día me desperté con ganas de jugar en serio y entré a un servidor random de fusilero, matando a unos que se tagueaban con R. No tenía idea de quiénes eran, no me podían matar. Llegué a la hora de la partida y me quedé AFK, ya que estaba aburrido de matar tanto. Terminé la partida con 120 kills y me habló un tal Salva que me quería invitar a jugar una competitiva. Me decía que faltaba un carry en el equipo porque tenían problemas con las muertes. Después de una intensa negociación de libras esterlinas, asistí a este amistoso con un clan brasileño. Me pedían que tirara una caja de no sé qué mierda que construyera unos nodos para no sé qué, pero después de unos minutos me dejaron pegar, que era para lo que me invitaron. No sé qué hice, la verdad, estaba escuchando a Pablo Chile y terminé la partida con 100 kills matando a pro players del Hell, y ahi se dieron cuenta de que tenían a Messi en el equipo y no me sacaron más, espero seguir carreando pero ya deje de jugar tanto a si que les estoy dando posibilidad de que me quiten los primeros lugares gracias."
     },
     {
-      name: "Mike tenshi",
-      role: "Recluta",
-      joinDate: "11/07/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
-      socials: [
-        {
-          name: "instagram",
-          url: ""
-        },
-        {
-          name: "youtube",
-          url: ""
-        },
-        {
-          name: "facebook",
-          url: ""
-        }
-      ],
-      whyRonin: ""
-    },
-    {
       name: "Ruloo",
       role: "Recluta",
       joinDate: "08/08/2024",
@@ -2150,29 +1766,6 @@ export const teamMembers = {
       name: "Bluox",
       role: "Recluta",
       joinDate: "27/07/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
-      socials: [
-        {
-          name: "instagram",
-          url: ""
-        },
-        {
-          name: "youtube",
-          url: ""
-        },
-        {
-          name: "facebook",
-          url: ""
-        }
-      ],
-      whyRonin: ""
-    },
-    {
-      name: "MC_Virgins",
-      role: "Recluta",
-      joinDate: "13/09/2024",
       avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
       labels: [],
       description: "",
@@ -2289,7 +1882,7 @@ export const teamMembers = {
       name: "SNATI",
       role: "Recluta",
       joinDate: "08/09/2024",
-      avatar: "hhttps://i.ibb.co/SNgVb3d/DSC-8627-resized-1-Snati.jpg",
+      avatar: "https://i.ibb.co/SNgVb3d/DSC-8627-resized-1-Snati.jpg",
       labels: ["Oficial de Escuadra","Asalto","Apoyo","Ametrallador","Antitanque","Ingeniero","Francotirador de Recon"],
       description: "Soy Dj, productor musical, owner de dos sellos y diseñador pero también un apasionado por la historia y los videojuegos, sobre todo de la segunda guerra mundial y cuando me entere de HLL y lo probe me quede fascinado.",
       socials: [
@@ -2309,35 +1902,12 @@ export const teamMembers = {
       whyRonin: "Por qué empecé a cruzarme con ellos en las partidas y me dio mucha curiosidad el mundo competitivo."
     },
     {
-      name: "ElPlomero",
-      role: "Recluta",
-      joinDate: "28/09/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
-      socials: [
-        {
-          name: "instagram",
-          url: ""
-        },
-        {
-          name: "youtube",
-          url: ""
-        },
-        {
-          name: "facebook",
-          url: ""
-        }
-      ],
-      whyRonin: ""
-    },
-    {
-      name: "Paulo",
+      name: "Paulo77",
       role: "Recluta",
       joinDate: "03/10/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/Y0KTKbf/misfits-Paulo-C-sar-Mu-oz-Olmedo.png",
+      labels: ["Fusilero","Asalto","Apoyo","Antitanque"],
+      description: "Un weon con un pc, a veces con tiempo para jugar, a veces no. esta complicada la pregunta, no sabria donde empezar.",
       socials: [
         {
           name: "instagram",
@@ -2352,7 +1922,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Ni yo tengo idea, pero al ingresar se agradece ese compañerismo, que aun de te da fe en la humanidad 👍🏼"
     },
     {
       name: "Gesse",
@@ -2377,29 +1947,7 @@ export const teamMembers = {
       ],
       whyRonin: ""
     },
-    {
-      name: "Maiba",
-      role: "Recluta",
-      joinDate: "20/10/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
-      socials: [
-        {
-          name: "instagram",
-          url: ""
-        },
-        {
-          name: "youtube",
-          url: ""
-        },
-        {
-          name: "facebook",
-          url: ""
-        }
-      ],
-      whyRonin: ""
-    },
+   
     {
       name: "NALES",
       role: "Recluta",
@@ -2447,29 +1995,6 @@ export const teamMembers = {
     },
     {
       name: "Mote12",
-      role: "Recluta",
-      joinDate: "24/10/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
-      socials: [
-        {
-          name: "instagram",
-          url: ""
-        },
-        {
-          name: "youtube",
-          url: ""
-        },
-        {
-          name: "facebook",
-          url: ""
-        }
-      ],
-      whyRonin: ""
-    },
-    {
-      name: "Ares",
       role: "Recluta",
       joinDate: "24/10/2024",
       avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
