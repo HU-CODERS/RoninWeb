@@ -281,9 +281,9 @@ export const teamMembers = {
       name: "Cnel. David",
       role: "Shogunato",
       joinDate: "27/03/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/JxzbRXG/yoo-David-Mu-oz.png",
+      labels: ["Comandante","Oficial de Escuadra"],
+      description: "Drogadicto pero buen muchacho, medio otaku pero tengo suerte con las mujeres. Ronin a muerte desde que lo fundamos!",
       socials: [
         {
           name: "instagram",
@@ -298,7 +298,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "En conjunto con los fundadores nos rebelamos con otro clan y logramos lo que hoy es Ronin."
     },
     
     {
@@ -328,13 +328,13 @@ export const teamMembers = {
       name: "Meeiko",
       role: "Ronin",
       joinDate: "27/08/2022",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/92rpMD8/IMG-9400-Meeiko.jpg",
+      labels: ["Comandante","Oficial de Escuadra","Fusilero","Asalto","Medico","Apoyo","Ametrallador","Antitanque","Ingeniero","Oteador de Recon"],
+      description: "¡Hola! Soy Meeiko, tatuador oficial del clan ronin ,cuando el tiempo me da un respiro, me encontrarás 'Jugando Juegitos' (como todo gamer de corazón). Soy parte orgullosa del legendario primer grupo de Ronin Fusileiros, así que en HLL me gusta tirar bala, construir cosas o salvar vidas digitales. No tengo un rol favorito en el juego, pero si tuviera que elegir, diría que me siento cómodo como ingeniero, apoyo, médico, fusilero u oficial… Si jugamos juntos cuenta cuantas veces puteo por que no se de donde carajo me disparan",
       socials: [
         {
           name: "instagram",
-          url: ""
+          url: "https://www.instagram.com/meikotats/"
         },
         {
           name: "youtube",
@@ -345,7 +345,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Me uní a Ronin desde el día uno que se creo , la mayoría de los amigos que hice y conocí crearon el clan y me dieron asilo político. Lo demás es historia, las guerras se acaban y los camaradas se quedan. "
     },  {
       name: "GordoAnsioso",
       role: "Ronin",
@@ -482,9 +482,9 @@ export const teamMembers = {
       name: "Julio A. Roca",
       role: "Ronin",
       joinDate: "06/12/2022",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/tXmTKJ1/Julio-A-Roca-Tomas-Molina-Ehrman.jpg",
+      labels: ["Comandante","Oficial de Escuadra","Antitanque","Oteador de Recon"],
+      description: "Oriundo de la Ciudad de la Santísima Trinidad y Puerto de Santa María del Buen Ayre, Argentina. Juego desde la Navidad de 2021. Con respecto a los roles, juego de lo que haga falta, pero me gusta más jugar de AT, porque nunca hay cuando se los necesita. También suelo jugar de oficial o de comandante (les gusta hacerme enojar). Pertenezco a la división Zapaleri, la más pijuda de todas.",
       socials: [
         {
           name: "instagram",
@@ -499,7 +499,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Conozco a los fundadores de cuando éramos parte del clan D.C. Estuve un tiempo fuera del juego y cuando volví me volvió a reclutar LeonMart. "
     }, {
       name: "Buckethead",
       role: "Ronin",
@@ -1095,9 +1095,9 @@ export const teamMembers = {
       name: "CrazyIvan",
       role: "Ronin",
       joinDate: "10/09/2023",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/3FQq7ny/IMG-4665-Ivan-Vekovski.jpg",
+      labels: ["Fusilero","Apoyo","Ametrallador","Ingeniero"],
+      description: "El rol que mas utilizo es el de ametrallador, por lo general orientado a contención y backline. Me gusta en general tanto en los videojuegos como en la vida real, tomarme un tiempo para pensar antes de actuar y a falta de un plan B se puede recurrir a la locura.",
       socials: [
         {
           name: "instagram",
@@ -1112,7 +1112,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Acepté una invitación tras decidir que me gustaría hacer amigos para jugar de forma organizada y poder participar en torneos."
     },
     {
       name: "Happy",
@@ -1421,9 +1421,9 @@ export const teamMembers = {
       name: "Leatherkite",
       role: "Recluta",
       joinDate: "20/04/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/wMqQ2vd/Captura-de-pantalla-2024-11-07-215851-Carlitos-Javier-Pino.png",
+      labels: ["Comandante","Oficial de Escuadra","Fusilero","Asalto","Medico","Apoyo","Antitanque","Ingeniero", "Comandante de Tanque", "Tripulante de Tanque","Oteador de Recon","Francotirador de Recon"],
+      description: "me gusta reir y jugar 7w7",
       socials: [
         {
           name: "instagram",
@@ -1438,7 +1438,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "queria jugar un poquito mas serio que las publicas."
     },
     {
       name: "Ryokodps",
@@ -1812,9 +1812,9 @@ export const teamMembers = {
       name: "Criiko",
       role: "Recluta",
       joinDate: "26/08/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png",
-      labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/vjKNDdb/erika-itsumi-erika-Sebastian-perez-martinez.gif",
+      labels: ["Comandante de Tanque", "Tripulante de Tanque"],
+      description: "Me gustan los tanques.",
       socials: [
         {
           name: "instagram",
@@ -1829,7 +1829,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Para jugar competitivo."
     },
     {
       name: "Frn",
@@ -1975,8 +1975,9 @@ export const teamMembers = {
       name: "!Aqua",
       role: "Recluta",
       joinDate: "06/09/2024",
-      avatar: "https://png.pngtree.com/png-clipart/20211009/original/pngtree-dog-tag-military-decorative-tag-with-stars-png-image_6841481.png", labels: [],
-      description: "",
+      avatar: "https://i.ibb.co/p4Brr98/b34bf6bade02298ec7b183842d4c1c67-Zobros.png", 
+      labels: ["Oficial de Escuadra","Fusilero","Asalto","Apoyo","Ametrallador","Antitanque","Ingeniero","Comandante de Tanque","Tripulante de Tanque","Oteador de Recon"],
+      description: "No tengo mucho que decir de mi, soy un chico de 20 años que disfruta los video juegos y lo relacionado con la segunda guerra mundial (hechos historicos, armamento, etc) también soy astrofotógrafo!",
       socials: [
         {
           name: "instagram",
@@ -1991,7 +1992,7 @@ export const teamMembers = {
           url: ""
         }
       ],
-      whyRonin: ""
+      whyRonin: "Hace tiempo atrás, hablé con un miembro de Ronin durante una partida y me dejó la invitación a unirme. Quería probar el competitivo y ser parte de un clan tan sociable con lo era Ronin, yo por tonto no acepte la invitación hasta septiembre que fue donde postulé y quedé."
     },
     {
       name: "Mote12",
