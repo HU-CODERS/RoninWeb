@@ -130,6 +130,7 @@ export default function RoninLandingPage() {
                 </a>
               </div>
               <p className="text-gray-400 text-sm">© 2021 - 2024 Clan Ronin. Todos los derechos reservados.</p>
+              <p className="text-gray-400 text-sm">Desarrollado por <a href="https://hu-code.vercel.app" target='_blank' className='text-cyan-400 hover:text-cyan-500 transition-colors'>HUCO I+D</a></p>
             </div>
           </div>
         </div>
